@@ -1,0 +1,88 @@
+name: Suggest a tool or study
+description: Suggest a tool, technology, study, organization or person for the SLP'edia directory.
+title: "Suggestion: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting something for SLP'edia. Every suggestion is reviewed by a person during the weekly refresh. Please check [CONTRIBUTING.md](https://github.com/FotiosMpouris/slpedia-open/blob/main/CONTRIBUTING.md) for the bar it needs to clear.
+
+        Please don't include any patient or client information.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: The name of the tool, technology or study (for a study, the title plus first author and year).
+      placeholder: "FreeVoice AAC, or Therrien et al. (2025) SGD interventions for autistic preschoolers"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: The primary link. For a study, the DOI or journal page.
+      placeholder: "https://"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      description: What it is and why it matters for SLPs, in a sentence or two.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Tool (app, device, software, symbol set or measure)
+        - Technology (emerging tech not yet in everyday use)
+        - Research (study, review or meta-analysis)
+        - Guideline (position statement or standard)
+        - Method (named approach or framework)
+        - Organization (society, center, hub or network)
+        - Person (researcher or voice worth following)
+    validations:
+      required: true
+  - type: dropdown
+    id: access
+    attributes:
+      label: Access
+      options:
+        - Free
+        - Freemium
+        - Paid
+        - Open source
+        - Open access (research)
+        - Paywalled (research)
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: What evidence is there? For example a systematic review, trial, single-case study, position statement, user reviews, or none yet. Link an open-access copy if there is one.
+    validations:
+      required: false
+  - type: input
+    id: details
+    attributes:
+      label: Region, languages and platforms
+      description: Where it comes from, which languages it supports, and (for tools) which platforms it runs on.
+      placeholder: "France; 11 interface languages; iOS, Android, Web"
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: It is publicly available today (not a waitlist, private beta or "coming soon" page).
+          required: true
+        - label: I searched the directory and open issues, and it isn't already listed or suggested.
+          required: true
+        - label: I am the maker, or I'm connected to it (leave unchecked if not).
+          required: false
