@@ -1,6 +1,6 @@
 {
   "title": "SLP'edia",
-  "tagline": "A living encyclopedia desk of speech-language people, tools, and research — especially for autistic children.",
+  "tagline": "A free, open directory of the tools, technology and research shaping the future of speech-language pathology.",
   "lastChecked": "2026-09-28",
   "filters": [
     {
@@ -20,6 +20,10 @@
       "label": "Tools"
     },
     {
+      "key": "technology",
+      "label": "Technology"
+    },
+    {
       "key": "research",
       "label": "Research"
     },
@@ -37,8 +41,8 @@
         "Autism & kids",
         "Broader SLP"
       ],
-      "region": "United States — Augmentative and Alternative Communication",
-      "summary": "Integrates lived experience with research on barriers that block language growth for people who need AAC: delayed access, undertrained clinicians, poor system fit, thin social opportunities, and unprepared partners. Clear agenda for service design, tech, and policy — with AAC users as equitable partners.",
+      "region": "United States, Augmentative and Alternative Communication",
+      "summary": "Integrates lived experience with research on barriers that block language growth for people who need AAC: delayed access, undertrained clinicians, poor system fit, thin social opportunities, and unprepared partners. Clear agenda for service design, tech, and policy, with AAC users as equitable partners.",
       "url": "https://doi.org/10.1080/07434618.2025.2508485",
       "people": "Christine Holyfield, Janice Light, Dana Nieder, Jamie Preece",
       "filterKeys": [
@@ -52,33 +56,37 @@
       "title": "Context-aware AAC for academic communication (Griffen et al., 2026)",
       "filters": [
         "Research",
-        "Autism & kids"
+        "Autism & kids",
+        "Technology"
       ],
-      "region": "United States — Journal of Special Education Technology",
+      "region": "United States, Journal of Special Education Technology",
       "summary": "ABAB study with three autistic preschoolers: a context-aware AAC prototype that surfaces partner-spoken response options beat a traditional LAMP-style topic grid on frequency, accuracy, and speed of academic answers (e.g., color knowledge). Early evidence that AI-assisted just-in-time options can unlock classroom participation.",
       "url": "https://doi.org/10.1177/01626434261420393",
       "people": "Brenna Griffen, Sheida K. Raley, Christine Holyfield, Stephen MacNeil, Elizabeth R. Lorah, Jenna Burns",
       "filterKeys": [
         "research",
-        "autism"
+        "autism",
+        "technology"
       ]
     },
     {
       "id": 52,
-      "title": "PaiCoach — AI-supported parent coaching for autistic children (Akemoğlu et al., 2026)",
+      "title": "PaiCoach: AI-supported parent coaching for autistic children (Akemoğlu et al., 2026)",
       "filters": [
         "Research",
         "Autism & kids",
-        "People"
+        "People",
+        "Technology"
       ],
-      "region": "Turkey / international — Journal of Autism and Developmental Disorders",
-      "summary": "Single-case study of Parent’s AI Coach (PaiCoach): human-reviewed AI that scores parent–child shared-reading videos and returns expert-validated feedback on modeling, mand-model, and time-delay strategies. Early lane for AI parent coaching — complementary to (not a replacement for) AAC devices.",
+      "region": "Turkey / international, Journal of Autism and Developmental Disorders",
+      "summary": "Single-case study of Parent’s AI Coach (PaiCoach): human-reviewed AI that scores parent–child shared-reading videos and returns expert-validated feedback on modeling, mand-model, and time-delay strategies. Early lane for AI parent coaching, complementary to (not a replacement for) AAC devices.",
       "url": "https://doi.org/10.1007/s10803-026-07519-6",
       "people": "Yusuf Akemoğlu, Zhaohui Li, Qingxiao Zheng, Emily Brooke Roberts, Samar Pratap Singh et al.",
       "filterKeys": [
         "research",
         "autism",
-        "people"
+        "people",
+        "technology"
       ]
     },
     {
@@ -89,8 +97,8 @@
         "People",
         "Broader SLP"
       ],
-      "region": "United States — Augmentative and Alternative Communication",
-      "summary": "Lead paper from the Future of AAC Research special issue: argues AAC users must lead and co-create research, tech, and training priorities — not be token add-ons. Names risks (tokenism, ableism) and the practical shift toward mutual-respect collaboration under “nothing about us without us.”",
+      "region": "United States, Augmentative and Alternative Communication",
+      "summary": "Lead paper from the Future of AAC Research special issue: argues AAC users must lead and co-create research, tech, and training priorities, not be token add-ons. Names risks (tokenism, ableism) and the practical shift toward mutual-respect collaboration under “nothing about us without us.”",
       "url": "https://doi.org/10.1080/07434618.2025.2514748",
       "people": "Grant Blasko, Janice Light, David McNaughton, Bob Williams, Jordyn Zimmerman",
       "filterKeys": [
@@ -106,8 +114,8 @@
         "Research",
         "Autism & kids"
       ],
-      "region": "Australia — International Journal of Language & Communication Disorders",
-      "summary": "Systematic review: experimental AAC studies with autistic people still concentrate on children, aided systems, behavioural teaching, and simple requesting — with little on adults, generalisation, or quality-of-life outcomes. Clinically useful reality check when writing goals beyond “request preferred item.”",
+      "region": "Australia, International Journal of Language & Communication Disorders",
+      "summary": "Systematic review: experimental AAC studies with autistic people still concentrate on children, aided systems, behavioural teaching, and simple requesting, with little on adults, generalisation, or quality-of-life outcomes. Clinically useful reality check when writing goals beyond “request preferred item.”",
       "url": "https://doi.org/10.1111/1460-6984.70251",
       "people": "Selena Mifsud, Donna Thomas, Ruth Bowron, Rebecca Sutherland",
       "filterKeys": [
@@ -122,8 +130,8 @@
         "Research",
         "Autism & kids"
       ],
-      "region": "China — Research in Developmental Disabilities",
-      "summary": "Corpus analysis of minimally verbal autistic children after caregiver-mediated low-tech AAC: use shifted from prompt-dependent requesting toward spontaneous engagement, joint attention, and environmental commentary — while regulatory and emotional functions stayed thin. Evidence that home AAC training can broaden functions, not only mands.",
+      "region": "China, Research in Developmental Disabilities",
+      "summary": "Corpus analysis of minimally verbal autistic children after caregiver-mediated low-tech AAC: use shifted from prompt-dependent requesting toward spontaneous engagement, joint attention, and environmental commentary, while regulatory and emotional functions stayed thin. Evidence that home AAC training can broaden functions, not only mands.",
       "url": "https://doi.org/10.1016/j.ridd.2025.105188",
       "people": "Yuhan Jiang, Ting Wang",
       "filterKeys": [
@@ -138,8 +146,8 @@
         "Research",
         "Autism & kids"
       ],
-      "region": "Palestine — BMC Pediatrics",
-      "summary": "Cross-sectional survey of 75 caregivers of autistic children using AAC in Nablus: very high perceived benefits (more communication opportunities, better home interaction) alongside hard barriers — integrating AAC into routines and accessing programs. Rare Middle East field snapshot for global SLP practice.",
+      "region": "Palestine, BMC Pediatrics",
+      "summary": "Cross-sectional survey of 75 caregivers of autistic children using AAC in Nablus: very high perceived benefits (more communication opportunities, better home interaction) alongside hard barriers: integrating AAC into routines and accessing programs. Rare Middle East field snapshot for global SLP practice.",
       "url": "https://doi.org/10.1186/s12887-026-07161-2",
       "people": "Hala Jarrar, Lana Malhis, Alaa Munawer, Moamen Omareya, Nagham Deek et al.",
       "filterKeys": [
@@ -154,8 +162,8 @@
         "Research",
         "Autism & kids"
       ],
-      "region": "Saudi Arabia — Research in Developmental Disabilities",
-      "summary": "Survey of 101 Saudi teachers on AAC for autistic students: perceived usefulness and ease of use shape adoption via teacher attitudes. Practical takeaway — sustained hands-on training, equitable device access, and school-wide integration matter more than one-off workshops.",
+      "region": "Saudi Arabia, Research in Developmental Disabilities",
+      "summary": "Survey of 101 Saudi teachers on AAC for autistic students: perceived usefulness and ease of use shape adoption via teacher attitudes. Practical takeaway: sustained hands-on training, equitable device access, and school-wide integration matter more than one-off workshops.",
       "url": "https://doi.org/10.1016/j.ridd.2026.105227",
       "people": "Talal E. Alhuzimi",
       "filterKeys": [
@@ -168,25 +176,27 @@
       "title": "SGD speech output off + delayed reinforcement and verbal requests (Kaneda & Sasaki, 2025)",
       "filters": [
         "Research",
-        "Autism & kids"
+        "Autism & kids",
+        "Technology"
       ],
-      "region": "Japan — Journal of Autism and Developmental Disorders",
+      "region": "Japan, Journal of Autism and Developmental Disorders",
       "summary": "Alternating-treatment study with three Japanese children with autism and intellectual disability: turning off SGD synthetic speech and delaying reinforcement increased verbal requests while children kept using the device. Nuanced evidence that device settings can shape the balance of speech vs. AAC use.",
       "url": "https://doi.org/10.1007/s10803-025-06910-z",
       "people": "Moeka Kaneda, Ginga Sasaki",
       "filterKeys": [
         "research",
-        "autism"
+        "autism",
+        "technology"
       ]
     },
     {
       "id": 67,
-      "title": "AAC use in South African classrooms — challenges and implications (Terblanche, Pascoe & Harty, 2025)",
+      "title": "AAC use in South African classrooms: challenges and implications (Terblanche, Pascoe & Harty, 2025)",
       "filters": [
         "Research",
         "Broader SLP"
       ],
-      "region": "South Africa — Child Language Teaching and Therapy",
+      "region": "South Africa, Child Language Teaching and Therapy",
       "summary": "Exploratory focus-group study of AAC in South African classrooms: affordability, device security/crime risk, training gaps, multilingual realities, and implementation load shape whether AAC actually gets used. Essential Global South framing for feature-match thinking that assumes US/UK infrastructure.",
       "url": "https://doi.org/10.1177/02656590241311063",
       "people": "Camryn Terblanche, Michelle Pascoe, Michal Harty",
@@ -197,30 +207,34 @@
     },
     {
       "id": 68,
-      "title": "“The less I type, the better” — LLMs for AAC users (Valencia et al., CHI 2023)",
+      "title": "“The less I type, the better”: LLMs for AAC users (Valencia et al., CHI 2023)",
       "filters": [
-        "Research"
+        "Research",
+        "Technology"
       ],
-      "region": "United States / UK — CHI 2023",
-      "summary": "CHI study with 12 adult AAC users on AI “Speech Macros” that expand brief input into fuller replies. Users saw real effort savings but insisted on control, personalization, privacy, and keeping their own voice — a design brief for any LLM-assisted AAC.",
+      "region": "United States / UK, CHI 2023",
+      "summary": "CHI study with 12 adult AAC users on AI “Speech Macros” that expand brief input into fuller replies. Users saw real effort savings but insisted on control, personalization, privacy, and keeping their own voice. A design brief for any LLM-assisted AAC.",
       "url": "https://doi.org/10.1145/3544548.3581560",
       "people": "Stephanie Valencia, Richard Cave, Krystal Kallarackal, Katie Seaver, Michael Terry, Shaun K. Kane",
       "filterKeys": [
-        "research"
+        "research",
+        "technology"
       ]
     },
     {
       "id": 69,
-      "title": "COMPA — conversation context for common ground in AAC (Valencia et al., CHI 2024)",
+      "title": "COMPA: conversation context for common ground in AAC (Valencia et al., CHI 2024)",
       "filters": [
-        "Research"
+        "Research",
+        "Technology"
       ],
-      "region": "United States — CHI 2024",
+      "region": "United States, CHI 2024",
       "summary": "Browser extension for online group chat: live transcription, context marking, intent tags, and AI starter phrases so slower AAC typing does not strand speakers mid-thread. Triadic conversation study found better conversational flow and interest in real use.",
       "url": "https://doi.org/10.1145/3613904.3642762",
       "people": "Stephanie Valencia, Jessica Huynh, Emma Y. Jiang, Yufei Wu, Teresa Wan et al.",
       "filterKeys": [
-        "research"
+        "research",
+        "technology"
       ]
     },
     {
@@ -228,15 +242,17 @@
       "title": "Automating augmented input from partner speech (Holyfield et al., AJSLP 2024)",
       "filters": [
         "Research",
-        "Autism & kids"
+        "Autism & kids",
+        "Technology"
       ],
-      "region": "United States — American Journal of Speech-Language Pathology",
-      "summary": "Wizard-of-Oz prototype that auto-pairs color photos with partner speech for minimally verbal autistic children. Versus a standard topic grid, the prototype raised visual attention and linguistic participation — a concrete path for AI-assisted aided input without waiting years for full product builds.",
+      "region": "United States, American Journal of Speech-Language Pathology",
+      "summary": "Wizard-of-Oz prototype that auto-pairs color photos with partner speech for minimally verbal autistic children. Versus a standard topic grid, the prototype raised visual attention and linguistic participation, a concrete path for AI-assisted aided input without waiting years for full product builds.",
       "url": "https://doi.org/10.1044/2023_AJSLP-23-00224",
       "people": "Christine Holyfield, Stephen MacNeil, Nicolette Caldwell, Tara O’Neill Zimmerman, Elizabeth Lorah et al.",
       "filterKeys": [
         "research",
-        "autism"
+        "autism",
+        "technology"
       ]
     },
     {
@@ -246,8 +262,8 @@
         "Research",
         "Autism & kids"
       ],
-      "region": "United States — Journal of Autism and Developmental Disorders",
-      "summary": "Systematic review and meta-analysis of naturalistic developmental behavioral interventions with and without aided AAC for autistic children with minimal speech. Language outcomes look stronger when AAC is in the package — though the AAC moderator itself was not statistically significant — useful evidence map for combining NDBI with SGDs.",
+      "region": "United States, Journal of Autism and Developmental Disorders",
+      "summary": "Systematic review and meta-analysis of naturalistic developmental behavioral interventions with and without aided AAC for autistic children with minimal speech. Language outcomes look stronger when AAC is in the package, though the AAC moderator itself was not statistically significant. Useful evidence map for combining NDBI with SGDs.",
       "url": "https://doi.org/10.1007/s10803-024-06382-7",
       "people": "Lauramarie Pope, Janice Light, Emily Laubscher",
       "filterKeys": [
@@ -262,7 +278,7 @@
         "Research",
         "Autism & kids"
       ],
-      "region": "United States / Saudi Arabia — Augmentative and Alternative Communication",
+      "region": "United States / Saudi Arabia, Augmentative and Alternative Communication",
       "summary": "Story Champs–style AAC narrative intervention for three autistic children (ages 6–9): customized least-to-most prompting on story grammar and symbols improved retell complexity, symbol variety, generalization, and 3-week maintenance. Moves AAC goals past requesting into storytelling.",
       "url": "https://doi.org/10.1080/07434618.2024.2433959",
       "people": "Norah M. Almubark, Trina D. Spencer, Matthew E. Foster",
@@ -279,8 +295,8 @@
         "Autism & kids",
         "People"
       ],
-      "region": "United States — Seminars in Speech and Language",
-      "summary": "Participatory survey of 567 school-based professionals on autistic speech and AAC decision-making — co-led with autistic AAC users. Highlights knowledge gaps that drive under- or mis-prescription of AAC when speech is present but unreliable, and pushes for better training on intermittent/speech+AAC profiles.",
+      "region": "United States, Seminars in Speech and Language",
+      "summary": "Participatory survey of 567 school-based professionals on autistic speech and AAC decision-making, co-led with autistic AAC users. Highlights knowledge gaps that drive under- or mis-prescription of AAC when speech is present but unreliable, and pushes for better training on intermittent/speech+AAC profiles.",
       "url": "https://doi.org/10.1055/s-0044-1793928",
       "people": "Alyssa Hillary Zisk, Brandon Eddy, Amy L. Donaldson, Sara Cannalonga, Olivia Strickland et al.",
       "filterKeys": [
@@ -297,8 +313,8 @@
         "Autism & kids",
         "Broader SLP"
       ],
-      "region": "United States — Augmentative and Alternative Communication",
-      "summary": "Utilization-focused evaluation of multimodal AAC supports in a children’s museum (majority of represented children autistic). Found gains in communication access and social awareness, plus a clear need for ongoing staff training, customization, and multiple accessible formats — AAC beyond the therapy room.",
+      "region": "United States, Augmentative and Alternative Communication",
+      "summary": "Utilization-focused evaluation of multimodal AAC supports in a children’s museum (majority of represented children autistic). Found gains in communication access and social awareness, plus a clear need for ongoing staff training, customization, and multiple accessible formats. AAC beyond the therapy room.",
       "url": "https://doi.org/10.1080/07434618.2025.2604825",
       "people": "Amy L. Yacucci, Sarah L. Ballard",
       "filterKeys": [
@@ -309,30 +325,34 @@
     },
     {
       "id": 75,
-      "title": "Future technologies in AAC — scoping review (Benevento, Ciulla & Merlo, 2025)",
+      "title": "Future technologies in AAC: scoping review (Benevento, Ciulla & Merlo, 2025)",
       "filters": [
-        "Research"
+        "Research",
+        "Technology"
       ],
-      "region": "Italy — Frontiers in Communication",
-      "summary": "Frontiers scoping review of emerging AAC tech: AI and mobile apps dominate (input recognition, personalized generation, prediction, caregiver support, multilingual tools). Autism appears among target populations, but rigorous real-world evidence is still thin — a map of what is hyped vs. proven.",
+      "region": "Italy, Frontiers in Communication",
+      "summary": "Frontiers scoping review of emerging AAC tech: AI and mobile apps dominate (input recognition, personalized generation, prediction, caregiver support, multilingual tools). Autism appears among target populations, but rigorous real-world evidence is still thin, a map of what is hyped vs. proven.",
       "url": "https://doi.org/10.3389/fcomm.2025.1607531",
       "people": "Alessandra Desireè Benevento, Giuseppe Ciulla, Gianluca Merlo",
       "filterKeys": [
-        "research"
+        "research",
+        "technology"
       ]
     },
     {
       "id": 76,
-      "title": "XR-integrated BCI for AAC — systematic review (Zhang et al., 2026)",
+      "title": "XR-integrated BCI for AAC: systematic review (Zhang et al., 2026)",
       "filters": [
-        "Research"
+        "Research",
+        "Technology"
       ],
-      "region": "International — Frontiers in Human Neuroscience",
-      "summary": "Systematic review of extended-reality + brain–computer interface AAC: only two eligible studies met criteria. Immersive P300 spelling can match conventional displays in demos, while eye-gaze often beats P300 in mixed reality — the field is still exploratory, not clinic-ready.",
+      "region": "International, Frontiers in Human Neuroscience",
+      "summary": "Systematic review of extended-reality + brain–computer interface AAC: only two eligible studies met criteria. Immersive P300 spelling can match conventional displays in demos, while eye-gaze often beats P300 in mixed reality. The field is still exploratory, not clinic-ready.",
       "url": "https://doi.org/10.3389/fnhum.2026.1842938",
       "people": "Peiran Zhang, Petra Karlsson, Darryl Chiu, Ran Zou, Cheng Zhang, Alistair McEwan, Bomin Sun, Haifeng Zhao",
       "filterKeys": [
-        "research"
+        "research",
+        "technology"
       ]
     },
     {
@@ -342,8 +362,8 @@
         "Research",
         "Autism & kids"
       ],
-      "region": "Italy (Bambino Gesù) — Frontiers in Psychiatry",
-      "summary": "Narrative review plus proposed AAC pictogram/visual-aid protocol so autistic youth can understand, consent to, and report sensations during non-invasive brain-stimulation (e.g., tDCS) procedures. Practical inclusion toolkit from an Italian pediatric research hospital — protocol-level, not yet a large clinical trial.",
+      "region": "Italy (Bambino Gesù), Frontiers in Psychiatry",
+      "summary": "Narrative review plus proposed AAC pictogram/visual-aid protocol so autistic youth can understand, consent to, and report sensations during non-invasive brain-stimulation (e.g., tDCS) procedures. Practical inclusion toolkit from an Italian pediatric research hospital, protocol-level, not yet a large clinical trial.",
       "url": "https://doi.org/10.3389/fpsyt.2026.1764016",
       "people": "Sara Passarini, Fabio Quarin, Giulia Lazzaro, Floriana Costanzo, Andrea Battisti et al.",
       "filterKeys": [
@@ -401,7 +421,7 @@
     },
     {
       "id": 5,
-      "title": "NICE CG170 — Autism spectrum disorder in under 19s: support and management",
+      "title": "NICE CG170: Autism spectrum disorder in under 19s: support and management",
       "filters": [
         "Autism & kids",
         "Research",
@@ -419,7 +439,7 @@
     },
     {
       "id": 6,
-      "title": "RCSLT Autism — clinical information / role of the SLT",
+      "title": "RCSLT Autism: clinical information / role of the SLT",
       "filters": [
         "Autism & kids",
         "Research"
@@ -451,13 +471,13 @@
     },
     {
       "id": 8,
-      "title": "Statped — Alternative and Supplementary Communication (ASK)",
+      "title": "Statped: Alternative and Supplementary Communication (ASK)",
       "filters": [
         "Autism & kids",
         "Broader SLP"
       ],
       "region": "Norway",
-      "summary": "Norway’s national special-education service pages on ASK (AAC): start early, multimodal options (signs, graphic symbols, speech-generating devices), partner competence, and legal rights to ASK education. Includes dedicated autism + ASK framing—usable for clinicians comparing rights-based Nordic practice to US “feature match then fund” habits.",
+      "summary": "Norway’s national special-education service pages on ASK (AAC): start early, multimodal options (signs, graphic symbols, speech-generating devices), partner competence, and legal rights to ASK education. Includes dedicated autism + ASK framing, usable for clinicians comparing rights-based Nordic practice to US “feature match then fund” habits.",
       "url": "https://www.statped.no/tiltak-og-tilrettelegging/alternativ-og-supplerende-kommunikasjon/",
       "people": "Statped (Norwegian national service for special education)",
       "filterKeys": [
@@ -468,7 +488,7 @@
     },
     {
       "id": 9,
-      "title": "Papunet — Communication Aids",
+      "title": "Papunet: Communication Aids",
       "filters": [
         "Autism & kids",
         "Broader SLP"
@@ -485,7 +505,7 @@
     },
     {
       "id": 10,
-      "title": "SPSM — Alternative and Augmentative Communication (AKK)",
+      "title": "SPSM: Alternative and Augmentative Communication (AKK)",
       "filters": [
         "Autism & kids",
         "Broader SLP"
@@ -502,7 +522,7 @@
     },
     {
       "id": 12,
-      "title": "Milo AAC Centre — Supported Communication (Netherlands)",
+      "title": "Milo AAC Centre: Supported Communication (Netherlands)",
       "filters": [
         "Autism & kids",
         "Broader SLP"
@@ -515,7 +535,7 @@
         "autism",
         "broader"
       ],
-      "titleOriginal": "Wij zijn Milo — Ondersteunde communicatie"
+      "titleOriginal": "Wij zijn Milo: Ondersteunde communicatie"
     },
     {
       "id": 14,
@@ -536,13 +556,13 @@
     },
     {
       "id": 16,
-      "title": "ARASAAC — free pictogram / AAC symbol portal",
+      "title": "ARASAAC: free pictogram / AAC symbol portal",
       "filters": [
         "Autism & kids",
         "Broader SLP"
       ],
       "region": "Spain (used widely across Europe/Latin America)",
-      "summary": "Large open pictogram collection and AAC resources from the Aragonese Centre for Augmentative and Alternative Communication—symbols reused inside many free/low-cost AAC apps (including European talkers). Practical when families cannot afford proprietary symbol licences.",
+      "summary": "Large open pictogram collection and AAC resources from the Aragonese Centre for Augmentative and Alternative Communication. Its symbols are reused inside many free/low-cost AAC apps (including European talkers). Practical when families cannot afford proprietary symbol licences.",
       "url": "https://arasaac.org/",
       "people": "ARASAAC / Gobierno de Aragón",
       "filterKeys": [
@@ -557,7 +577,7 @@
         "Autism & kids"
       ],
       "region": "Australia (used internationally)",
-      "summary": "Robust AAC system by SLP Gayle Porter organising vocabulary by pragmatic communication function with consistent motor patterns—available as paper communication books and on major SGD platforms. Designed so users can initiate their own ideas, not only request pre-chosen items; common with cerebral palsy and autistic communicators needing generative language access.",
+      "summary": "Robust AAC system by SLP Gayle Porter organising vocabulary by pragmatic communication function with consistent motor patterns, available as paper communication books and on major SGD platforms. Designed so users can initiate their own ideas, not only request pre-chosen items; common with cerebral palsy and autistic communicators needing generative language access.",
       "url": "https://www.cpec.org.au/podd",
       "people": "Gayle Porter / Cerebral Palsy Education Centre (CPEC), Melbourne",
       "filterKeys": [
@@ -571,7 +591,7 @@
         "Autism & kids"
       ],
       "region": "United Kingdom",
-      "summary": "Person-centred approach (Dave Hewett, Melanie Nind lineage) for building fundamental social communication with autistic people and people with profound learning disabilities—imitation, contingent responding, shared attention, following the learner’s lead. Widely used by UK SLTs for pre-symbolic/early communicators where “device first” would miss the interaction fundamentals.",
+      "summary": "Person-centred approach (Dave Hewett, Melanie Nind lineage) for building fundamental social communication with autistic people and people with profound learning disabilities: imitation, contingent responding, shared attention, following the learner’s lead. Widely used by UK SLTs for pre-symbolic/early communicators where “device first” would miss the interaction fundamentals.",
       "url": "https://www.intensiveinteraction.org/",
       "people": "Intensive Interaction Institute",
       "filterKeys": [
@@ -587,7 +607,7 @@
         "Broader SLP"
       ],
       "region": "International (open-source; UNICEF Innovation–linked distribution)",
-      "summary": "Free, open-source symbol + text-to-speech AAC web/app supporting many languages, custom boards, and offline use on Chromium. Useful equity option when proprietary AAC is inaccessible—still requires SLP feature-matching and partner modelling like any SGD.",
+      "summary": "Free, open-source symbol + text-to-speech AAC web/app supporting many languages, custom boards, and offline use on Chromium. Useful equity option when proprietary AAC is inaccessible. It still requires SLP feature-matching and partner modelling like any SGD.",
       "url": "https://www.cboard.io/",
       "people": "Cboard open-source project / cboard-org",
       "filterKeys": [
@@ -689,7 +709,7 @@
         "Broader SLP"
       ],
       "region": "United States (web / cross-platform)",
-      "summary": "Cloud-based AAC platform for people with complex communication needs—boards that sync across web, iOS, Android, Kindle, and Windows so home/school/clinic teams share the same system. Historically open-source; now commercially supported (Forbes AAC) with team modelling and reporting features.",
+      "summary": "Cloud-based AAC platform for people with complex communication needs, boards that sync across web, iOS, Android, Kindle, and Windows so home/school/clinic teams share the same system. Historically open-source; now commercially supported (Forbes AAC) with team modelling and reporting features.",
       "url": "https://www.coughdrop.com/",
       "people": "CoughDrop / Forbes AAC",
       "filterKeys": [
@@ -750,7 +770,7 @@
     },
     {
       "id": 22,
-      "title": "NISE CPEDD — Guidance for Promoting Communication (Japan)",
+      "title": "NISE CPEDD: Guidance for Promoting Communication (Japan)",
       "filters": [
         "Autism & kids",
         "Research"
@@ -770,7 +790,8 @@
       "title": "SGD + JASP/EMT adaptive trial for minimally verbal autistic children (Kasari et al.)",
       "filters": [
         "Autism & kids",
-        "Research"
+        "Research",
+        "Technology"
       ],
       "region": "United States (multi-site trial; globally cited)",
       "summary": "Landmark SMART randomized trial showing school-aged minimally verbal autistic children made more spontaneous communicative utterances when a speech-generating device was blended with developmental/behavioral intervention than on spoken-language-only adaptive paths. Clinically useful when deciding whether to introduce an SGD early rather than “wait for speech.”",
@@ -778,7 +799,8 @@
       "people": "Connie Kasari and colleagues; *JAACAP* 2014",
       "filterKeys": [
         "autism",
-        "research"
+        "research",
+        "technology"
       ]
     },
     {
@@ -805,7 +827,7 @@
         "Broader SLP"
       ],
       "region": "Canada origin; Norwegian clinical adaptation published 2023",
-      "summary": "Parent-report outcome measure capturing how AAC interventions affect child participation and family life (ages ~3–18). Norwegian short-form validation (FIATS-AAC-No) found acceptable reliability/validity and clinician-rated usefulness for follow-up—moves AAC evaluation beyond “device delivered.”",
+      "summary": "Parent-report outcome measure capturing how AAC interventions affect child participation and family life (ages ~3–18). Norwegian short-form validation (FIATS-AAC-No) found acceptable reliability/validity and clinician-rated usefulness for follow-up. It moves AAC evaluation beyond “device delivered.”",
       "url": "https://hollandbloorview.ca/research-education/bloorview-research-institute/outcome-measures/AAC-measures/FIATS-AAC",
       "people": "Holland Bloorview Kids Rehabilitation Hospital (measure origin); Norwegian adaptation: Fjeldvang, Nordaas, von Tetzchner, Stadskleiv",
       "filterKeys": [
@@ -821,7 +843,7 @@
         "Autism & kids"
       ],
       "region": "Scotland / United Kingdom",
-      "summary": "Visual framework (SLT-designed social enterprise) helping children and adults think about and express views on topics using picture sets on a physical or digital mat—widely used for goal-setting, emotional exploration, and capturing the voice of people who struggle with open verbal interview. Strong secondary tool on autism caseloads for preference/consent work alongside AAC.",
+      "summary": "Visual framework (SLT-designed social enterprise) helping children and adults think about and express views on topics using picture sets on a physical or digital mat, widely used for goal-setting, emotional exploration, and capturing the voice of people who struggle with open verbal interview. Strong secondary tool on autism caseloads for preference/consent work alongside AAC.",
       "url": "https://www.talkingmats.com/",
       "people": "Talking Mats Ltd (Stirling)",
       "filterKeys": [
@@ -837,7 +859,7 @@
         "Autism & kids"
       ],
       "region": "United Kingdom",
-      "summary": "UK AAC charity and ISAAC chapter connecting AAC users, families, clinicians, and researchers—journal, conference, communication clubs, mentoring by AAC users, and service-quality standards work. Good “people + community intel” card when the desk needs lived-experience AAC networks outside US advocacy orgs.",
+      "summary": "UK AAC charity and ISAAC chapter connecting AAC users, families, clinicians, and researchers: journal, conference, communication clubs, mentoring by AAC users, and service-quality standards work. Good “people + community intel” card when the desk needs lived-experience AAC networks outside US advocacy orgs.",
       "url": "https://www.communicationmatters.org.uk/",
       "people": "Communication Matters (ISAAC UK)",
       "filterKeys": [
@@ -863,14 +885,14 @@
     },
     {
       "id": 40,
-      "title": "Janice Light — AAC research (Penn State)",
+      "title": "Janice Light: AAC research (Penn State)",
       "filters": [
         "People",
         "Research",
         "Autism & kids"
       ],
       "region": "United States",
-      "summary": "Professor Emeritus and inaugural Hintz Family Endowed Chair in Children’s Communicative Competence. Foundational AAC work on communicative competence, early language with AAC, literacy for people who use AAC, and visual-scene / just-in-time tech design — long-time RERC on AAC leadership lineage.",
+      "summary": "Professor Emeritus and inaugural Hintz Family Endowed Chair in Children’s Communicative Competence. Foundational AAC work on communicative competence, early language with AAC, literacy for people who use AAC, and visual-scene / just-in-time tech design, long-time RERC on AAC leadership lineage.",
       "url": "https://hhd.psu.edu/contact/janice-light",
       "people": "Janice C. Light, Ph.D.",
       "filterKeys": [
@@ -881,7 +903,7 @@
     },
     {
       "id": 41,
-      "title": "David McNaughton — AAC literacy & training (Penn State)",
+      "title": "David McNaughton: AAC literacy & training (Penn State)",
       "filters": [
         "People",
         "Research",
@@ -899,14 +921,14 @@
     },
     {
       "id": 42,
-      "title": "Christine Holyfield — AAC research (University of Arkansas)",
+      "title": "Christine Holyfield: AAC research (University of Arkansas)",
       "filters": [
         "People",
         "Research",
         "Autism & kids"
       ],
       "region": "United States",
-      "summary": "Associate Professor of communication sciences and disorders. AAC researcher focused on technology and literacy for people with complex communication needs. Principal investigator of the 2025–2030 RERC on AAC grant (collaborative center with Arkansas, Auburn, Florida State, Penn State, and Temple) — not styled here as a generic “center director.”",
+      "summary": "Associate Professor of communication sciences and disorders. AAC researcher focused on technology and literacy for people with complex communication needs. Principal investigator of the 2025–2030 RERC on AAC grant (collaborative center with Arkansas, Auburn, Florida State, Penn State, and Temple), not styled here as a generic “center director.”",
       "url": "https://csdi.uark.edu/directory/uid/ceholyfi/name/Christine+Holyfield/",
       "people": "Christine Holyfield, Ph.D., CCC-SLP",
       "filterKeys": [
@@ -917,7 +939,7 @@
     },
     {
       "id": 43,
-      "title": "Jessica Caron — AAC literacy (Penn State)",
+      "title": "Jessica Caron: AAC literacy (Penn State)",
       "filters": [
         "People",
         "Research",
@@ -935,7 +957,7 @@
     },
     {
       "id": 44,
-      "title": "Elizabeth Biggs — peer networks & AAC (Vanderbilt)",
+      "title": "Elizabeth Biggs: peer networks & AAC (Vanderbilt)",
       "filters": [
         "People",
         "Research",
@@ -953,7 +975,7 @@
     },
     {
       "id": 45,
-      "title": "Rachel Madel — Talking with Tech",
+      "title": "Rachel Madel: Talking with Tech",
       "filters": [
         "People",
         "Autism & kids"
@@ -969,13 +991,13 @@
     },
     {
       "id": 46,
-      "title": "Dana Nieder — Uncommon Sense (AAC parent blog)",
+      "title": "Dana Nieder: Uncommon Sense (AAC parent blog)",
       "filters": [
         "People",
         "Autism & kids"
       ],
       "region": "United States",
-      "summary": "Long-running parent AAC blog documenting early access, modeling, core vocabulary, and device journeys (including Speak for Yourself). Frequently cited in AAC training as a clear family-voice companion to clinician guidance — not a clinical protocol.",
+      "summary": "Long-running parent AAC blog documenting early access, modeling, core vocabulary, and device journeys (including Speak for Yourself). Frequently cited in AAC training as a clear family-voice companion to clinician guidance, not a clinical protocol.",
       "url": "http://niederfamily.blogspot.com/",
       "people": "Dana Nieder",
       "filterKeys": [
@@ -1007,7 +1029,8 @@
       "filters": [
         "Research",
         "Broader SLP",
-        "Autism & kids"
+        "Autism & kids",
+        "Technology"
       ],
       "region": "United States (multi-university)",
       "summary": "NIDILRR-funded Rehabilitation Engineering Research Center on AAC: research, development, training, and dissemination for people with complex communication needs. Current 2025–2030 cycle is a collaboration across Arkansas, Auburn, Florida State, Penn State, and Temple (PI: Christine Holyfield per UArk announcement).",
@@ -1016,7 +1039,8 @@
       "filterKeys": [
         "research",
         "broader",
-        "autism"
+        "autism",
+        "technology"
       ]
     },
     {
@@ -1028,7 +1052,7 @@
         "People"
       ],
       "region": "International / United States origin",
-      "summary": "Widely used practitioner blog and resource hub for everyday AAC implementation — modeling, core vocabulary, literacy, and classroom strategies. High-utility “open tomorrow morning” card for SLPs and educators.",
+      "summary": "Widely used practitioner blog and resource hub for everyday AAC implementation: modeling, core vocabulary, literacy, and classroom strategies. High-utility “open tomorrow morning” card for SLPs and educators.",
       "url": "https://praacticalaac.org/",
       "people": "PrAACtical AAC",
       "filterKeys": [
@@ -1039,10 +1063,11 @@
     },
     {
       "id": 50,
-      "title": "AAATE — Association for the Advancement of Assistive Technology in Europe",
+      "title": "AAATE: Association for the Advancement of Assistive Technology in Europe",
       "filters": [
         "Broader SLP",
-        "Research"
+        "Research",
+        "Technology"
       ],
       "region": "Europe",
       "summary": "European association for assistive technology research, policy, and practice (including AAC-relevant AT). Conference, journal links, and network entry point when the desk needs a non-US AT professional home.",
@@ -1050,7 +1075,8 @@
       "people": "AAATE",
       "filterKeys": [
         "broader",
-        "research"
+        "research",
+        "technology"
       ]
     },
     {
@@ -1065,7 +1091,7 @@
         "autism",
         "broader"
       ],
-      "region": "United States / global — Tobii Dynavox",
+      "region": "United States / global, Tobii Dynavox",
       "summary": "Cross-platform AAC page-set software (Core First, Motor Plan, Text, Aphasia, PODD add-on) with touch, eye-gaze, and switch. Often paired with Tobii hardware; also available as iPad subscription. Major clinical AAC system families actually evaluate.",
       "url": "https://us.tobiidynavox.com/products/td-snap",
       "people": "",
@@ -1081,8 +1107,8 @@
         "tools",
         "broader"
       ],
-      "region": "United Kingdom — Therapy Box",
-      "summary": "Text-first AAC with word prediction, phrase banking, multi-language support, and flexible access (touch, scanning, switch). Strong pathway for literate and acquired-communication users — fills a gap if the desk is heavy on symbol AAC.",
+      "region": "United Kingdom, Therapy Box",
+      "summary": "Text-first AAC with word prediction, phrase banking, multi-language support, and flexible access (touch, scanning, switch). Strong pathway for literate and acquired-communication users. Fills a gap if the desk is heavy on symbol AAC.",
       "url": "https://www.therapybox.co.uk/predictable-english",
       "people": "",
       "id": 79
@@ -1097,14 +1123,14 @@
         "tools",
         "autism"
       ],
-      "region": "United States — iOS/iPadOS App Store",
-      "summary": "SLP-built motor-planning AAC: every word within two taps; vocabulary grows with the user. Practitioner-built, evidence-framed motor learning — not a brochure brand.",
+      "region": "United States, iOS/iPadOS App Store",
+      "summary": "SLP-built motor-planning AAC: every word within two taps; vocabulary grows with the user. Practitioner-built, evidence-framed motor learning, not a brochure brand.",
       "url": "https://apps.apple.com/us/app/speak-for-yourself/id482508198",
       "people": "",
       "id": 80
     },
     {
-      "title": "SabiKo — free AAC",
+      "title": "SabiKo: free AAC",
       "filters": [
         "Tools",
         "Autism & kids"
@@ -1113,8 +1139,8 @@
         "tools",
         "autism"
       ],
-      "region": "Global — iOS & Android",
-      "summary": "Free symbol AAC plus type-to-speak keyboard, offline neural voices, Android and iOS. Builder-style alternative to $250–300 one-time apps — families can try today.",
+      "region": "Global, iOS & Android",
+      "summary": "Free symbol AAC plus type-to-speak keyboard, offline neural voices, Android and iOS. Builder-style alternative to $250–300 one-time apps. Families can try today.",
       "url": "https://sabikoaac.app/",
       "people": "",
       "id": 81
@@ -1129,8 +1155,8 @@
         "tools",
         "autism"
       ],
-      "region": "Global — free offline-first PWA",
-      "summary": "Free offline-first AAC (PWA) with optional AI sentence polish and environmental suggestions via a free Groq key. Built by a parent for their child. Early-access AI extras — core stays free.",
+      "region": "Global, free offline-first PWA",
+      "summary": "Free offline-first AAC (PWA) with optional AI sentence polish and environmental suggestions via a free Groq key. Built by a parent for their child. Early-access AI extras. Core stays free.",
       "url": "https://www.jvox.org/",
       "people": "",
       "id": 82
@@ -1146,7 +1172,7 @@
         "autism"
       ],
       "region": "Augmentative and Alternative Communication",
-      "summary": "Single-case comparison of learning text vs picture symbols for young autistic children with minimal speech — mixed results; underscores personalizing symbol representation, not defaulting to PCS.",
+      "summary": "Single-case comparison of learning text vs picture symbols for young autistic children with minimal speech: mixed results; underscores personalizing symbol representation, not defaulting to PCS.",
       "url": "https://doi.org/10.1080/07434618.2025.2458868",
       "people": "Pope & Light",
       "id": 83
@@ -1162,7 +1188,7 @@
         "autism"
       ],
       "region": "Augmentative and Alternative Communication",
-      "summary": "Multi-element plus preference design across high/low-tech modalities with caregiver input — all kids proficient on at least one modality; caregiver preference usually matched the child. Practical selection protocol.",
+      "summary": "Multi-element plus preference design across high/low-tech modalities with caregiver input: all kids proficient on at least one modality; caregiver preference usually matched the child. Practical selection protocol.",
       "url": "https://doi.org/10.1080/07434618.2025.2519409",
       "people": "Shawler et al.",
       "id": 84
@@ -1186,7 +1212,7 @@
       "id": 85
     },
     {
-      "title": "Play-integrated AAC interventions — systematic review",
+      "title": "Play-integrated AAC interventions: systematic review",
       "filters": [
         "Research",
         "Autism & kids"
@@ -1195,7 +1221,7 @@
         "research",
         "autism"
       ],
-      "region": "Open access — PMC",
+      "region": "Open access, PMC",
       "summary": "Review of 14 experimental studies (ages 3–8, minimally verbal / nonspeaking) on AAC interventions that integrate play; notes a shift toward more naturalistic, play-based frames. Open full text.",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13084014/",
       "people": "",
@@ -1211,7 +1237,7 @@
         "tools",
         "autism"
       ],
-      "region": "Global — open-source AAC (PWA + Android)",
+      "region": "Global, open-source AAC (PWA + Android)",
       "summary": "Parent-built, MIT open-source symbol AAC (PWA + Android APK) with offline use after first load, no account, subscription, or tracking, ARASAAC symbols, a core-word bar, multilingual support including Arabic RTL, and on-device Kokoro TTS. A real free builder families can try today; customization depth is still maturing versus established paid apps.",
       "url": "https://freevoiceaac.app/",
       "people": "",
@@ -1229,7 +1255,7 @@
         "autism",
         "broader"
       ],
-      "region": "France / global — nonprofit AAC app",
+      "region": "France / global, nonprofit AAC app",
       "summary": "Nonprofit, pay-what-you-want symbol AAC with the ARASAAC library (about 40,000 pictograms), sentence bar, offline use, optional cloud sync, an 11-language interface, and text-to-speech across 30+ languages. A credible European alternative to subscription AAC with no ads or locked features; cloud sync requires an account.",
       "url": "https://www.pictalk.org/",
       "people": "Association Pictalk",
@@ -1245,23 +1271,25 @@
         "people",
         "broader"
       ],
-      "region": "United States — OHSU University Center for Excellence in Developmental Disabilities",
+      "region": "United States, OHSU University Center for Excellence in Developmental Disabilities",
       "summary": "AAC-user-led consortium run with CommunicationFIRST and ACL/AUCD (March 2024–March 2025) that published findings and recommendations and is building a national Peer Support Hub for directories, tools, and mentoring. Distinct from the existing CommunicationFIRST card: this is the concrete peer-support project and emerging network infrastructure.",
       "url": "https://www.ohsu.edu/university-center-excellence-development-disability/augmentative-and-alternative-communication-aac",
       "people": "Melanie Fried-Oken; CommunicationFIRST; AAC communicators",
       "id": 89
     },
     {
-      "title": "SGD interventions for autistic preschoolers — systematic review (Therrien et al., 2025)",
+      "title": "SGD interventions for autistic preschoolers: systematic review (Therrien et al., 2025)",
       "filters": [
         "Research",
-        "Autism & kids"
+        "Autism & kids",
+        "Technology"
       ],
       "filterKeys": [
         "research",
-        "autism"
+        "autism",
+        "technology"
       ],
-      "region": "United States — Augmentative and Alternative Communication",
+      "region": "United States, Augmentative and Alternative Communication",
       "summary": "Systematic review of 20 SGD intervention studies (1998–2023) for autistic preschoolers. Most targeted requesting; 11 showed moderate-to-strong effects; prompting was common, fewer than half met full ecological-validity criteria, and only seven measured social validity. Calls for work across diverse communicative functions.",
       "url": "https://doi.org/10.1080/07434618.2025.2479768",
       "people": "Therrien, Whalon, Nunes, Marti & Sellers",
