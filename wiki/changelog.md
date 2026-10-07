@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-07: GitHub link in the top bar
+
+- A small "GitHub" link with the GitHub logo now sits next to "Email a suggestion" and opens the open-source repo in a new tab.
+- On phones it shows under the Newsletter button, so the word is always visible.
+
 ## 2026-10-07: Simpler, more colorful homepage
 
 - Cards now show just the title and one line of summary, and the whole card is the link. Tag chips, the people line and the arrow icon are gone.

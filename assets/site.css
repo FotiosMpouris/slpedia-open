@@ -274,3 +274,20 @@ footer a{text-decoration:underline;text-underline-offset:3px;font-weight:600}
   .shelves{grid-template-rows:auto auto auto}
   .shelf{display:grid;grid-row:span 3;grid-template-rows:subgrid;row-gap:0;align-self:stretch}
 }
+
+/* GitHub: a small text link with the GitHub mark, styled like "Email a suggestion".
+   Narrow screens keep the word visible and never get wider than the screen:
+   561-660px stacks the two text links beside the Newsletter button; phones put GitHub on its own line under the button. */
+.gh{gap:6px;white-space:nowrap}
+.gh svg{flex:none;width:18px;height:18px}
+@media (min-width:561px) and (max-width:660px){
+  .top-links{display:grid;grid-template-columns:auto auto;gap:0 20px;align-items:center;justify-items:end}
+  .top-links .top-link{grid-column:1;min-height:32px}
+  .top-links .nl{grid-column:2;grid-row:1 / span 2}
+}
+@media (max-width:560px){
+  .top{padding:8px 0}
+  .top-links{flex-direction:column-reverse;align-items:flex-end;gap:2px}
+  .top-link.gh{display:inline-flex;min-height:30px;font-size:15px;gap:5px;text-underline-offset:4px}
+  .gh svg{width:16px;height:16px}
+}
