@@ -8,7 +8,7 @@ The easiest way is email. Write to [editor@slpedia.world](mailto:editor@slpedia.
 
 Comfortable with GitHub? You can also [open a "Suggest a tool or study" issue](https://github.com/FotiosMpouris/slpedia-open/issues/new/choose) and fill in the form. Please check the [directory data](data.json) and the [open issues](https://github.com/FotiosMpouris/slpedia-open/issues) first so it isn't a repeat.
 
-A person reviews suggestions during the weekly refresh. Approved entries are added to the directory and the wiki. Suggestions that don't make it get a short reason.
+Every suggestion is checked against our editorial standards before it goes up. Approved entries are added to the directory and the wiki during the weekly refresh. Suggestions that don't make it get a short reason.
 
 ## The bar
 

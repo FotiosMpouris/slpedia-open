@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting something for SLP'edia. Every suggestion is reviewed by a person during the weekly refresh. Please check [CONTRIBUTING.md](https://github.com/FotiosMpouris/slpedia-open/blob/main/CONTRIBUTING.md) for the bar it needs to clear.
+        Thanks for suggesting something for SLP'edia. Every suggestion is checked against our editorial standards before it goes up. Please check [CONTRIBUTING.md](https://github.com/FotiosMpouris/slpedia-open/blob/main/CONTRIBUTING.md) for the bar it needs to clear.
 
         Please don't include any patient or client information.
   - type: input

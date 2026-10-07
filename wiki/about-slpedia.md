@@ -17,5 +17,3 @@
 - Not a patient portal, and it holds no patient or client information.
 - Not a dump of every AAC brand brochure. Tools means verified tech only.
 
-## Not affiliated
-SLP'edia is a free, open directory of SLP tools, technology and research. It isn't affiliated with SLPedia (slpedia.com), the speech-language practice in Long Beach, CA.

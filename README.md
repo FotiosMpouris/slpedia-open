@@ -10,7 +10,7 @@ SLP'edia is a directory and a newsletter, nothing more. It offers no therapy, as
 
 SLP'edia borrows its approach from [Future Tools](https://www.futuretools.io/), Matt Wolfe's curated directory of AI tools:
 
-- **Human curation with a public bar.** Every entry is reviewed by a person. Taste beats completeness, so plenty of suggestions don't make it in.
+- **Curation with a public bar.** Every suggestion is checked against our editorial standards before it goes up. Taste beats completeness, so plenty of suggestions don't make it in.
 - **One card per entry.** A short summary, the people or organization behind it, the region, and a link to the primary source.
 - **Filters that match how SLPs look for things.** Tools, Research, People, Autism & kids and Broader SLP today, with more to come (type, access, region and a small hand-picked "Start here" list).
 - **Weekly refresh.** New cards are added after review, and entries that stop meeting the bar are removed with a reason.
@@ -56,10 +56,6 @@ Comfortable with GitHub? You can also [open a "Suggest a tool or study" issue](h
 Corrections are welcome too: if a card has a broken link, an outdated price or a mistake, email editor@slpedia.world (or open an issue) and say which card.
 
 Please don't include patient or client information in emails or issues.
-
-## Not affiliated
-
-SLP'edia is a free, open directory of SLP tools, technology and research. It isn't affiliated with SLPedia (slpedia.com), the speech-language practice in Long Beach, CA.
 
 ## License
 

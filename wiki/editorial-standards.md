@@ -22,7 +22,7 @@ How SLP'edia entries are chosen, written and kept up to date.
 
 ## Adding and updating entries
 1. New candidates are gathered each week, including suggestions from readers (see [CONTRIBUTING.md](../CONTRIBUTING.md)).
-2. A person reviews every candidate against the bar above before it goes on the directory.
+2. Every suggestion is checked against our editorial standards before it goes up.
 3. Approved cards are added to `data.json`, and the matching wiki page and [changelog](changelog.md) are updated.
 4. A light check for broken links, duplicates and contradictions follows. Problems are fixed or flagged.
 5. A new, distinct tool, person, hub or paper gets its own entry. New evidence about an existing entry updates that entry, with a note in the changelog.

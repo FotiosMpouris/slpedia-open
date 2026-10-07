@@ -220,7 +220,7 @@ Shared rules for all four, from the findings above:
 | Headline highlight | `#F1CDB4` |
 | Shelf tints | Tools `#F6D3B8`, Technology `#D3E9E6`, Research `#F2D4D0`, Guides `#EFE1C6` |
 
-- **Why:** Peach was the fastest background overall in Rello and Bigham (1.1). It keeps the gentle, warm feel Fotios wanted from the pink without depending on pink, which the BDA flags (1.2) and which has only weak support as "for women" (1.10). Rose is a small accent only.
+- **Why:** Peach was the fastest background overall in Rello and Bigham (1.1). It keeps the gentle, warm feel we wanted from the pink without depending on pink, which the BDA flags (1.2) and which has only weak support as "for women" (1.10). Rose is a small accent only.
 - **Contrast:** ink on page 13.2:1, white on teal 6.0:1.
 
 ### Palette 4, "Fitzgerald Shelves" (neutral cream with AAC colour-key shelves), built as A4d
