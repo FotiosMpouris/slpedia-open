@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-07: Simpler, more colorful homepage
+
+- Cards now show just the title and one line of summary, and the whole card is the link. Tag chips, the people line and the arrow icon are gone.
+- Each shelf has its own soft color: butter for Tools, teal for Technology, coral for Research and light blue for Guides and groups. Cards take the shelf's tint, headers and the selected filter button take the full color.
+- A "Clear filters" button appears when a shelf or topic is picked and puts everything back to all shelves.
+
 ## 2026-10-07: Suggestions by email
 
 - Suggestions now go to editor@slpedia.world, so nobody needs a GitHub account. The site's buttons open a new email.

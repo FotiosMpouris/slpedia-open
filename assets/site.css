@@ -54,10 +54,8 @@ button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
 .filters{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%}
 .cats{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
 .cat{display:inline-flex;align-items:center;gap:9px;min-height:50px;padding:0 10px 0 18px;border:var(--lw) solid var(--edge);border-radius:999px;background:var(--card);font-weight:700;font-size:17px;transition:background .2s}
-.cat .n{min-width:30px;height:30px;padding:0 7px;border-radius:999px;display:grid;place-items:center;font-size:14px;background:var(--paper);border:2px solid var(--edge)}
 .cat:hover{background:var(--paper)}
 .cat[aria-pressed="true"]{background:var(--hl);color:#1b1f3b}
-.cat[aria-pressed="true"] .n{background:#fff;border-color:#1b1f3b}
 .topics{display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap}
 .topics .lbl{font-weight:700;font-size:15px;color:var(--muted)}
 .topic{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:0 16px;border:2px solid var(--line);border-radius:999px;background:var(--card);font-weight:600;font-size:15px;transition:border-color .2s,background .2s}
@@ -86,14 +84,6 @@ button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
 .card:hover{box-shadow:7px 8px 0 var(--hover-sh)}
 .card h3{font-size:19px;line-height:1.25;font-weight:700;padding-right:34px}
 .card .sum{font-size:16px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.card .orig{font-size:15px;font-style:italic;color:var(--muted)}
-.card .who{font-size:14px;font-weight:600;color:var(--ink);opacity:.8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.card .tags{display:flex;gap:6px;flex-wrap:wrap}
-.card .tg{font-size:12.5px;font-weight:700;letter-spacing:.03em;padding:2px 10px;border-radius:999px;border:1.5px solid var(--edge);background:var(--paper)}
-.card .tg.kids{background:var(--teal-tint)}
-.card .go{position:absolute;top:16px;right:16px;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;border:2px solid var(--edge);background:var(--paper);transition:background .2s,transform .2s}
-.card .go svg{width:16px;height:16px}
-.card:hover .go{background:var(--pink);color:#1b1f3b;transform:rotate(45deg)}
 .new{position:absolute;top:-12px;left:18px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:var(--red);color:#fff;border:2px solid #1b1f3b;border-radius:999px;padding:1px 10px}
 .more{margin-top:16px;width:100%;min-height:52px;border:2px dashed var(--edge);border-radius:999px;background:var(--paper);font-weight:700;font-size:16px;transition:background .2s}
 .more:hover{background:var(--shelf-bg);border-style:solid}
@@ -214,3 +204,54 @@ footer a{text-decoration:underline;text-underline-offset:3px;font-weight:600}
     padding-bottom:var(--art-pb);
   }
 }
+
+/* Simple cards, coloured by shelf: each card takes its shelf's soft tint, each header the full colour.
+   Each shelf has one colour (--s) and a soft tint of it (--t). All are drawn from the Reading Lamp
+   palette and the reading-room drawing: butter, teal, coral and a light navy.
+   Ink text (#1b1f3b) on every --s and --t passes WCAG AA (lowest is 6.7:1). */
+:root{
+  --s-tools:#F6D26B;      --t-tools:#FCEFC4;
+  --s-technology:#7CC4BE; --t-technology:#DCF0EE;
+  --s-research:#F09A7E;   --t-research:#FBE1D7;
+  --s-guides:#8FA9D1;     --t-guides:#E3EBF6;
+}
+.shelf-tools,.cat-tools{--s:var(--s-tools);--t:var(--t-tools)}
+.shelf-technology,.cat-technology{--s:var(--s-technology);--t:var(--t-technology)}
+.shelf-research,.cat-research{--s:var(--s-research);--t:var(--t-research)}
+.shelf-guides,.cat-guides{--s:var(--s-guides);--t:var(--t-guides)}
+
+/* filter buttons: a colour dot names the shelf; selected fills with that colour */
+.cat{padding:0 18px;gap:10px}
+.cat .dot{width:14px;height:14px;border-radius:50%;background:var(--s);border:2px solid var(--edge);flex:none}
+.cat:hover{background:var(--t,var(--paper))}
+.cat[aria-pressed="true"]{background:var(--s);color:#1b1f3b}
+.cat[aria-pressed="true"] .dot{background:#fff}
+.cat-all[aria-pressed="true"]{background:var(--teal);color:#fff;border-color:var(--teal)}
+.topic[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:#fff}
+/* phone dropdowns take the chosen shelf's colour */
+.sel select[data-shelf="tools"]{background-color:var(--s-tools)}
+.sel select[data-shelf="technology"]{background-color:var(--s-technology)}
+.sel select[data-shelf="research"]{background-color:var(--s-research)}
+.sel select[data-shelf="guides"]{background-color:var(--s-guides)}
+.sel select[data-on="1"]{background-color:var(--teal-tint)}
+/* Clear filters: a plain text button, only shown when a shelf or topic is picked */
+.clear{min-height:44px;padding:0 14px;font-weight:700;font-size:16px;color:var(--teal);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px;border-radius:10px}
+.clear:hover{background:var(--paper)}
+.clear[hidden]{display:none}
+
+/* shelf header: the shelf's full colour, with ink text for contrast */
+.shelf-h{background:var(--s)}
+.shelf-h p{color:var(--ink)}
+.shelf-h .ic{background:var(--card);color:var(--ink)}
+
+/* the card: title plus one line, the whole thing is the link */
+.card{gap:4px;padding:14px 18px 14px 20px;border-radius:18px;background:var(--t);box-shadow:3px 3px 0 var(--ink);animation:none}
+.card h3{font-size:18px;padding-right:0}
+.card .sum{display:block;font-size:15.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card:hover{transform:translate(-2px,-3px);box-shadow:5px 6px 0 var(--ink);background:var(--card)}
+.card:hover h3,.card:focus-visible h3{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
+.card:focus-visible{outline:3px solid var(--teal);outline-offset:4px}
+.list{gap:12px}
+.new{top:-11px}
+.more{background:var(--t);border-color:var(--edge)}
+.more:hover{background:var(--s)}
