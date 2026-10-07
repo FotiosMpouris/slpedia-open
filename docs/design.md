@@ -39,4 +39,4 @@ The type is DM Sans for reading and Big Shoulders for headings. Both are self-ho
 
 Colour psychology is a young field with many weak findings ([Elliot, 2015](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.00368/full)). We don't say any colour calms, heals or improves learning. Cream backgrounds are about glare and comfort, not a treatment: coloured overlays and tinted lenses are not supported as a dyslexia treatment ([joint statement, AAP and others](https://publications.aap.org/pediatrics/article/127/3/e818/64947/Learning-Disabilities-Dyslexia-and-Vision)).
 
-Suggestions to improve readability are welcome. [Open an issue](https://github.com/FotiosMpouris/slpedia-open/issues/new/choose).
+Suggestions to improve readability are welcome. Email [editor@slpedia.world](mailto:editor@slpedia.world?subject=Suggestion%20for%20SLP%27edia), or if you use GitHub, [open an issue](https://github.com/FotiosMpouris/slpedia-open/issues/new/choose).

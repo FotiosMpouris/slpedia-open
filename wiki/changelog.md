@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-07: Suggestions by email
+
+- Suggestions now go to editor@slpedia.world, so nobody needs a GitHub account. The site's buttons open a new email.
+- GitHub issues still work for anyone who prefers them.
+
 ## 2026-09-30: Open-source release
 
 - SLP'edia published as a public, open-source repo: the directory page (`index.html`, `data.json`) and this wiki.

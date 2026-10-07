@@ -4,9 +4,11 @@ Thanks for helping. SLP'edia grows through suggestions from SLPs, researchers, e
 
 ## Suggest a tool or study
 
-1. Search the [directory data](data.json) and the [open issues](https://github.com/FotiosMpouris/slpedia-open/issues) to check it isn't already listed or suggested.
-2. [Open a "Suggest a tool or study" issue](https://github.com/FotiosMpouris/slpedia-open/issues/new/choose) and fill in the form.
-3. A person reviews suggestions during the weekly refresh. Approved entries are added to the directory and the wiki. Suggestions that don't make it get a short reason.
+The easiest way is email. Write to [editor@slpedia.world](mailto:editor@slpedia.world?subject=Suggestion%20for%20SLP%27edia) with the name, a link and a line or two on why it belongs. A tool, article, study or person worth adding are all welcome. You don't need an account anywhere.
+
+Comfortable with GitHub? You can also [open a "Suggest a tool or study" issue](https://github.com/FotiosMpouris/slpedia-open/issues/new/choose) and fill in the form. Please check the [directory data](data.json) and the [open issues](https://github.com/FotiosMpouris/slpedia-open/issues) first so it isn't a repeat.
+
+A person reviews suggestions during the weekly refresh. Approved entries are added to the directory and the wiki. Suggestions that don't make it get a short reason.
 
 ## The bar
 
@@ -19,11 +21,11 @@ Like Future Tools, SLP'edia turns down more than it accepts. A suggestion should
 - **Not a brochure.** No placeholder testimonials, no unsupported outcome claims, and no pages that exist only to sell.
 - **Not a duplicate.** If it's already listed, suggest a correction to the existing card instead.
 
-Makers are welcome to suggest their own tools. Please say so in the issue. Listings are never paid, and there are no affiliate links.
+Makers are welcome to suggest their own tools. Please say so in your email or issue. Listings are never paid, and there are no affiliate links.
 
 ## Corrections
 
-Spotted a broken link, an outdated price, a removed app or a factual mistake? Open an issue, name the card and include a source for the fix. Pull requests that edit `data.json` or the `wiki/` pages are welcome for small fixes.
+Spotted a broken link, an outdated price, a removed app or a factual mistake? Email editor@slpedia.world or open an issue, name the card and include a source for the fix. Pull requests that edit `data.json` or the `wiki/` pages are welcome for small fixes.
 
 ## Please don't
 

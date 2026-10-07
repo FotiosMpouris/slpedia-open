@@ -49,11 +49,13 @@ The site uses the Reading Lamp palette: a cream page, cream cards, butter yellow
 
 ## Suggest a tool or study
 
-Know a tool, technology or study that belongs here? [Open a "Suggest a tool or study" issue](https://github.com/FotiosMpouris/slpedia-open/issues/new/choose). It asks for the name, the link, a one-line description, the type, the access (free, paid, open source, open access and so on) and, where it applies, the evidence behind it. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first for the bar each entry has to clear.
+Know a tool, article, study or person that belongs here? Email [editor@slpedia.world](mailto:editor@slpedia.world?subject=Suggestion%20for%20SLP%27edia) with the name, a link and why it belongs. No account needed.
 
-Corrections are welcome too: if a card has a broken link, an outdated price or a mistake, open an issue and say which card.
+Comfortable with GitHub? You can also [open a "Suggest a tool or study" issue](https://github.com/FotiosMpouris/slpedia-open/issues/new/choose). It asks for the name, the link, a one-line description, the type, the access (free, paid, open source, open access and so on) and, where it applies, the evidence behind it. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first for the bar each entry has to clear.
 
-Please don't include patient or client information in issues.
+Corrections are welcome too: if a card has a broken link, an outdated price or a mistake, email editor@slpedia.world (or open an issue) and say which card.
+
+Please don't include patient or client information in emails or issues.
 
 ## Not affiliated
 

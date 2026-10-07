@@ -104,6 +104,8 @@ button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
 .suggest{display:grid;grid-template-columns:260px 1fr auto;gap:32px;align-items:center;margin:56px 0 0;padding:28px 34px;border:var(--lw) solid var(--edge);border-radius:32px;background:var(--card);box-shadow:var(--sh-teal)}
 .suggest h2{font-size:40px}
 .suggest p{margin-top:8px;color:var(--muted);font-size:18px;max-width:34em}
+.suggest p.alt{margin-top:12px;font-size:16px}
+.suggest p.alt a{color:var(--teal);font-weight:700;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:64px;padding:0 30px;border:3px solid #1b1f3b;border-radius:999px;background:var(--cta);color:var(--cta-fg);font-weight:700;font-size:19px;box-shadow:5px 5px 0 #1b1f3b;transition:transform .12s,box-shadow .12s;white-space:nowrap}
 .btn svg{width:24px;height:24px}
 .btn:hover{transform:translate(-1px,-1px);box-shadow:6px 6px 0 #1b1f3b}

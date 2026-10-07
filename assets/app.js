@@ -3,7 +3,7 @@
 (function () {
   "use strict";
 
-  var SUGGEST_URL = "https://github.com/FotiosMpouris/slpedia-open/issues/new/choose";
+  var SUGGEST_URL = "mailto:editor@slpedia.world?subject=Suggestion%20for%20SLP%27edia";
   var SHELVES = [
     { key: "tools", label: "Tools", note: "AAC apps and devices you can pick up and use." },
     { key: "technology", label: "Technology", note: "New tech for communication and the studies testing it." },
@@ -112,7 +112,7 @@
     if (!items.length) {
       var e = el("div", "empty");
       e.appendChild(document.createTextNode("Nothing on this shelf matches yet. "));
-      var sl = el("a", null, "Suggest it"); sl.href = SUGGEST_URL; sl.target = "_blank"; sl.rel = "noopener";
+      var sl = el("a", null, "Email us a suggestion"); sl.href = SUGGEST_URL;
       sl.style.textDecoration = "underline"; sl.style.fontWeight = "700";
       e.appendChild(sl); e.appendChild(document.createTextNode("."));
       list.appendChild(e);
