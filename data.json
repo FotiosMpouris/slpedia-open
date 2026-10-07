@@ -1,7 +1,7 @@
 {
   "title": "SLP'edia",
   "tagline": "A free, open directory of the tools, technology and research shaping the future of speech-language pathology.",
-  "lastChecked": "2026-09-28",
+  "lastChecked": "2026-10-07",
   "filters": [
     {
       "key": "all",
@@ -1238,7 +1238,7 @@
         "autism"
       ],
       "region": "Global, open-source AAC (PWA + Android)",
-      "summary": "Parent-built, MIT open-source symbol AAC (PWA + Android APK) with offline use after first load, no account, subscription, or tracking, ARASAAC symbols, a core-word bar, multilingual support including Arabic RTL, and on-device Kokoro TTS. A real free builder families can try today; customization depth is still maturing versus established paid apps.",
+      "summary": "Parent-built, MIT open-source symbol AAC (PWA + Android APK) with offline use after first load, no account, subscription, or tracking, ARASAAC symbols, a core-word bar, and 10 languages (Arabic, with right-to-left support, in beta). Speech: the website says it speaks through the device's built-in voice engine and lets families record their own voices; the project's GitHub README lists on-device Kokoro AI voices. A real free builder families can try today; customization depth is still maturing versus established paid apps.",
       "url": "https://freevoiceaac.app/",
       "people": "",
       "id": 87
@@ -1256,7 +1256,7 @@
         "broader"
       ],
       "region": "France / global, nonprofit AAC app",
-      "summary": "Nonprofit, pay-what-you-want symbol AAC with the ARASAAC library (about 40,000 pictograms), sentence bar, offline use, optional cloud sync, an 11-language interface, and text-to-speech across 30+ languages. A credible European alternative to subscription AAC with no ads or locked features; cloud sync requires an account.",
+      "summary": "Nonprofit French association's pictogram AAC. The original Pictalk AAC app stays free, and the site now labels it an older version: since May 2026 the AAC module also lives in Pictalk Buddy, which adds visual schedules and is pay-what-you-want for families (including zero) with no locked features; professional organizations join through a paid association membership. Works offline and online on phone, tablet and computer, with a choice of voice and accent and unlimited custom pictograms. Companion tool Pictalk Studio offers 30,000 pictograms from Sclera, Tawasol, ARASAAC and Mulberry. Website in 11 languages; cloud sync requires an account.",
       "url": "https://www.pictalk.org/",
       "people": "Association Pictalk",
       "id": 88
@@ -1294,6 +1294,56 @@
       "url": "https://doi.org/10.1080/07434618.2025.2479768",
       "people": "Therrien, Whalon, Nunes, Marti & Sellers",
       "id": 90
+    },
+    {
+      "title": "Geabaire: free Irish-language AAC (Trinity College Dublin / ABAIR)",
+      "filters": [
+        "Tools",
+        "Autism & kids"
+      ],
+      "filterKeys": [
+        "tools",
+        "autism"
+      ],
+      "region": "Ireland, Trinity College Dublin / ABAIR",
+      "summary": "First robust symbol-based AAC for Irish (Gaeilge): ~7,000 words across linked boards, grammar support, spoken by ABAIR synthetic Irish voices. Free for schools, users and families; launched Sep 29 2026 with 24 new autism classes in Irish-medium primary schools. Web app live; iPad/Android coming soon.",
+      "url": "https://abair.ie/geabaire",
+      "people": "Neasa Ní Chiaráin, Emily Barnes",
+      "id": 91
+    },
+    {
+      "title": "Letter-sound literacy in grid AAC during shared reading (Pope et al., LSHSS 2026)",
+      "filters": [
+        "Research",
+        "Autism & kids"
+      ],
+      "filterKeys": [
+        "research",
+        "autism"
+      ],
+      "region": "United States, Language, Speech, and Hearing Services in Schools",
+      "summary": "Single-case multiple-baseline study of 6 autistic (or autism-like) children ages 5–10 who use AAC and knew two or fewer letter sounds. A Transition to Literacy (T2L) initial-letter-sound feature in a grid AAC topic display during shared storybook reading. All six improved letter-sound accuracy and generalized to initial sounds in CVC words. Online Sep 28 2026.",
+      "url": "https://doi.org/10.1044/2026_LSHSS-26-00079",
+      "people": "Pope, Holyfield, DeLuca, Schweizer, Jakobs, Light, Semmler, Brittlebank",
+      "id": 92
+    },
+    {
+      "title": "Classroom AAC for autistic children in Malaysia (Cheah et al., 2026)",
+      "filters": [
+        "Research",
+        "Autism & kids",
+        "Broader SLP"
+      ],
+      "filterKeys": [
+        "research",
+        "autism",
+        "broader"
+      ],
+      "region": "Malaysia, Augmentative and Alternative Communication",
+      "summary": "Focus groups with 12 parents and 15 special-education teachers in three Malaysian schools. Both groups reported gains (vocabulary, utterance length, confidence, fewer challenging behaviors). Barriers included training gaps, misconceptions, device damage, thin vocabularies, large classes, funding, and restrictive school policies. Adds Southeast Asia to global AAC implementation evidence. Online Aug 27 2026.",
+      "url": "https://doi.org/10.1080/07434618.2026.2716690",
+      "people": "Cheah, Joginder Singh, Ling, Ahmad Rusli, Andzik",
+      "id": 93
     }
   ]
 }
