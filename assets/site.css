@@ -171,3 +171,44 @@ footer a{text-decoration:underline;text-underline-offset:3px;font-weight:600}
   .hero-art{margin-bottom:18px;padding-bottom:16px}
   .hero-art .ill{border-radius:20px;box-shadow:5px 5px 0 #F6D26B}
 }
+
+/* Hero fit: on laptop and desktop screens the logo, headline, line of text and the whole
+   reading-room drawing share the first screen. Headline and spacing scale with screen height,
+   and the drawing is capped to the height that is left, so its base and the navy band stay in view. */
+@media (min-width:561px){
+  :root{
+    --top-h:clamp(56px,11vh,80px);
+    --hero-pt:clamp(6px,2.5vh,30px);
+    --h1-fs:clamp(36px,min(5.6vw,8vh),64px);
+    --lede-fs:clamp(16px,2.9vh,20px);
+    --lede-mt:clamp(6px,1.6vh,16px);
+    --hero-pb:clamp(12px,2.6vh,22px);
+    --art-pb:clamp(14px,3vh,26px);
+    --screen-h:100vh;
+  }
+  @supports (height:100svh){
+    :root{
+      --top-h:clamp(56px,11svh,80px);
+      --hero-pt:clamp(6px,2.5svh,30px);
+      --h1-fs:clamp(36px,min(5.6vw,8svh),64px);
+      --lede-fs:clamp(16px,2.9svh,20px);
+      --lede-mt:clamp(6px,1.6svh,16px);
+      --hero-pb:clamp(12px,2.6svh,22px);
+      --art-pb:clamp(14px,3svh,26px);
+      --screen-h:100svh;
+    }
+  }
+  .top{min-height:var(--top-h)}
+  .hero{padding:var(--hero-pt) 0 var(--hero-pb)}
+  .hero h1{font-size:var(--h1-fs)}
+  .lede{font-size:var(--lede-fs);margin-top:var(--lede-mt)}
+  /* everything above the drawing: top bar, padding, two headline lines, two lines of text */
+  .hero-art{
+    --above:calc(var(--top-h) + var(--hero-pt) + var(--h1-fs) * 1.9 + var(--lede-mt) + var(--lede-fs) * 2.9 + var(--hero-pb));
+    /* drawing is 600x280 plus a 3px border; leave a little room below the navy band */
+    width:min(640px,100%,calc((var(--screen-h) - var(--above) - var(--art-pb) - 16px) * 600 / 280));
+    min-width:min(420px,100%);
+    max-width:none;
+    padding-bottom:var(--art-pb);
+  }
+}
