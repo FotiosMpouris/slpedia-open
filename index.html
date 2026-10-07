@@ -7,471 +7,109 @@
   <meta name="description" content="A free, open directory of the tools, technology and research shaping the future of speech-language pathology." />
   <meta property="og:title" content="SLP'edia" />
   <meta property="og:description" content="A free, open directory of the tools, technology and research shaping the future of speech-language pathology." />
-  <meta name="theme-color" content="#FAF8F4" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <style>
-    /* Gentle Mind: calm, soft, readable. Palette from the OpenCare design round. */
-    :root {
-      --paper: #FAF8F4;
-      --card: #FFFFFF;
-      --ink: #16181D;
-      --muted: #545A66;
-      --iris: #5B4BC4;
-      --iris-deep: #3F3296;
-      --mist: #EEEAFB;
-      --peach: #FF9E7A;
-      --aqua: #7ED8D2;
-      --sage: #0E7A5A;
-      --sage-tint: #E2F3EC;
-      --line: #E6E1D8;
-      --shadow: 0 8px 30px rgba(22, 24, 29, 0.06);
-      --shadow-lift: 0 14px 40px rgba(63, 50, 150, 0.12);
-      --radius: 22px;
-      --serif: "Newsreader", Georgia, "Times New Roman", serif;
-      --sans: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      background:
-        radial-gradient(ellipse 70% 40% at 50% -8%, rgba(238, 234, 251, 0.9) 0%, transparent 70%),
-        var(--paper);
-      color: var(--ink);
-      font: 400 17px/1.6 var(--sans);
-      -webkit-font-smoothing: antialiased;
-      min-height: 100vh;
-    }
-    a { color: inherit; }
-    .wrap { max-width: 1080px; margin: 0 auto; padding: 0 28px; }
-
-    /* Top bar */
-    .top {
-      display: flex; align-items: center; justify-content: space-between;
-      gap: 16px; padding: 22px 0 0;
-    }
-    .word {
-      display: flex; align-items: center; gap: 10px;
-      font: 700 18px var(--sans); letter-spacing: 0.01em; text-decoration: none;
-    }
-    .word i {
-      width: 22px; height: 22px; border-radius: 50%; flex: none;
-      background: conic-gradient(from 200deg, var(--peach), var(--iris), var(--aqua), var(--peach));
-    }
-    .top-link {
-      font: 600 15px var(--sans); color: var(--iris-deep); text-decoration: none;
-      padding: 10px 18px; border-radius: 999px; background: var(--card);
-      border: 1.5px solid var(--line); white-space: nowrap;
-      transition: border-color .2s, box-shadow .2s;
-    }
-    .top-link:hover { border-color: #CFC7F2; box-shadow: var(--shadow); }
-
-    /* Hero */
-    .hero { text-align: center; padding: 56px 0 8px; }
-    .orb {
-      width: 76px; height: 76px; margin: 0 auto; border-radius: 50%;
-      background: radial-gradient(circle at 34% 30%, #fff 0%, #FFD6C4 18%, #FF9E7A 38%, #8C7CF0 66%, #7ED8D2 100%);
-      box-shadow: 0 16px 44px rgba(91, 75, 196, 0.28), 0 0 0 9px rgba(238, 234, 251, 0.75), 0 0 0 19px rgba(238, 234, 251, 0.35);
-    }
-    .eyebrow {
-      margin: 34px 0 0; font: 600 14px var(--sans); color: var(--muted);
-      letter-spacing: 0.02em;
-    }
-    .eyebrow span {
-      display: inline-block; margin-left: 6px; padding: 2px 10px; border-radius: 999px;
-      background: var(--mist); color: var(--iris-deep); font-weight: 700; font-size: 12px;
-      letter-spacing: 0.08em; text-transform: uppercase; vertical-align: 1px;
-    }
-    h1 {
-      font-family: var(--serif); font-weight: 500; letter-spacing: -0.015em;
-      font-size: clamp(2.6rem, 7vw, 4rem); line-height: 1.05; margin: 10px 0 0;
-    }
-    .purpose {
-      font-family: var(--serif); font-style: italic; font-size: clamp(1.2rem, 2.6vw, 1.45rem);
-      line-height: 1.4; color: var(--muted); max-width: 32em; margin: 14px auto 0;
-    }
-
-    /* Search and filters */
-    .controls { max-width: 720px; margin: 34px auto 0; }
-    .search {
-      display: flex; align-items: center; gap: 12px;
-      background: var(--card); border: 1.5px solid var(--line); border-radius: 999px;
-      min-height: 64px; padding: 0 8px 0 24px; box-shadow: var(--shadow);
-      transition: border-color .2s, box-shadow .2s;
-    }
-    .search:focus-within { border-color: #BDB3EE; box-shadow: 0 0 0 4px var(--mist), var(--shadow); }
-    .search input {
-      flex: 1; min-width: 0; border: 0; outline: 0; background: transparent;
-      font: 500 17px var(--sans); color: var(--ink); padding: 16px 0;
-    }
-    .search input::placeholder { color: var(--muted); opacity: 1; }
-    .search input::-webkit-search-cancel-button { filter: grayscale(1); opacity: .5; }
-    .search .glass {
-      width: 48px; height: 48px; border-radius: 50%; flex: none; display: grid; place-items: center;
-      background: var(--iris); color: #fff; box-shadow: 0 8px 20px rgba(91, 75, 196, 0.28);
-    }
-    .ic { width: 22px; height: 22px; flex: none; }
-
-    .filters { margin-top: 22px; display: flex; flex-direction: column; align-items: center; gap: 12px; }
-    .chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
-    .chip {
-      appearance: none; -webkit-appearance: none; cursor: pointer;
-      font: 600 16px var(--sans); color: var(--ink);
-      background: var(--card); border: 1.5px solid var(--line); border-radius: 999px;
-      padding: 9px 18px; min-height: 44px;
-      display: inline-flex; align-items: center; gap: 8px;
-      transition: background .2s, border-color .2s, color .2s;
-    }
-    .chip:hover { border-color: #CFC7F2; background: #FDFCFF; }
-    .chip:focus-visible, .top-link:focus-visible, a.card:focus-visible, .suggest a:focus-visible {
-      outline: 3px solid #BDB3EE; outline-offset: 2px;
-    }
-    .chip[aria-pressed="true"] {
-      background: var(--iris); border-color: var(--iris); color: #fff;
-      box-shadow: 0 8px 20px rgba(91, 75, 196, 0.22);
-    }
-    .chip .n { font-weight: 500; font-size: 14px; opacity: .7; }
-    .topics { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px; }
-    .topics .label { font: 600 14px var(--sans); color: var(--muted); margin-right: 4px; }
-    .topics .chip { font-size: 14px; min-height: 36px; padding: 5px 14px; background: transparent; }
-    .topics .chip[aria-pressed="true"] { background: var(--mist); border-color: #CFC7F2; color: var(--iris-deep); box-shadow: none; }
-
-    .meta {
-      display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap;
-      margin: 44px 0 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line);
-    }
-    .meta h2 { font: 500 26px var(--serif); margin: 0; letter-spacing: -0.01em; }
-    .meta .count { font: 600 14px var(--sans); color: var(--muted); }
-
-    /* Cards */
-    #feed { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
-    a.card {
-      display: flex; flex-direction: column; text-decoration: none; color: inherit;
-      background: var(--card); border: 1.5px solid var(--line); border-radius: var(--radius);
-      padding: 22px 24px 20px; box-shadow: var(--shadow);
-      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
-    }
-    a.card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); border-color: #DCD5F5; }
-    .kind {
-      display: flex; align-items: center; gap: 8px;
-      font: 700 13px var(--sans); color: var(--iris-deep); letter-spacing: 0.04em; text-transform: uppercase;
-    }
-    .kind i {
-      width: 30px; height: 30px; border-radius: 10px; background: var(--mist);
-      display: grid; place-items: center; flex: none;
-    }
-    .kind i svg { width: 17px; height: 17px; }
-    .card-title {
-      font: 500 23px/1.22 var(--serif); letter-spacing: -0.01em; margin: 14px 0 8px;
-    }
-    .card-summary {
-      margin: 0; color: var(--muted); font-size: 16px; line-height: 1.6;
-      display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
-    }
-    .card-original { margin: 10px 0 0; font: italic 400 16px/1.4 var(--serif); color: var(--muted); }
-    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
-    .tag {
-      font: 600 13px var(--sans); padding: 3px 11px; border-radius: 999px;
-      background: var(--paper); color: var(--muted); border: 1px solid var(--line);
-    }
-    .tag.kids { background: var(--sage-tint); color: #0B4A37; border-color: transparent; }
-    .card-foot {
-      margin-top: auto; padding-top: 16px; display: flex; align-items: flex-end; justify-content: space-between; gap: 12px;
-      font-size: 14px; color: var(--muted); line-height: 1.45;
-    }
-    .card-foot .who { min-width: 0; }
-    .card-foot .people { color: var(--ink); font-weight: 600; }
-    .card-foot .open {
-      flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center;
-      background: var(--mist); color: var(--iris-deep); transition: background .2s, color .2s;
-    }
-    a.card:hover .open { background: var(--iris); color: #fff; }
-    .card-foot .open svg { width: 18px; height: 18px; }
-
-    .empty {
-      text-align: center; padding: 48px 24px; border-radius: var(--radius);
-      background: var(--card); border: 1.5px dashed var(--line); color: var(--muted);
-    }
-    .empty p { margin: 0 0 6px; font: italic 400 21px var(--serif); color: var(--ink); }
-    .empty a { color: var(--iris-deep); font-weight: 600; }
-
-    /* Suggest */
-    .suggest {
-      margin: 48px 0 0; padding: 36px 32px; border-radius: 28px; text-align: center;
-      background: linear-gradient(180deg, #F4F1FD 0%, var(--mist) 100%);
-    }
-    .suggest h2 { font: 500 30px/1.2 var(--serif); margin: 0; letter-spacing: -0.01em; }
-    .suggest p { margin: 10px auto 22px; max-width: 34em; color: var(--muted); }
-    .suggest a {
-      display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 28px;
-      border-radius: 999px; background: var(--iris); color: #fff; text-decoration: none;
-      font: 700 17px var(--sans); box-shadow: 0 10px 24px rgba(91, 75, 196, 0.3);
-      transition: background .2s;
-    }
-    .suggest a:hover { background: var(--iris-deep); }
-
-    footer {
-      padding: 40px 0 48px; text-align: center; font-size: 14px; color: var(--muted); line-height: 1.8;
-    }
-    footer a { color: var(--iris-deep); }
-
-    @media (max-width: 860px) {
-      #feed { grid-template-columns: 1fr; }
-    }
-    @media (max-width: 520px) {
-      .wrap { padding: 0 18px; }
-      .top { padding-top: 16px; }
-      .top-link { font-size: 14px; padding: 8px 14px; }
-      .hero { padding-top: 38px; }
-      .orb { width: 64px; height: 64px; }
-      .eyebrow { margin-top: 28px; }
-      .controls { margin-top: 26px; }
-      .search { min-height: 58px; padding-left: 20px; }
-      .search .glass { width: 44px; height: 44px; }
-      .chips { gap: 6px; }
-      .chip { font-size: 15px; padding: 7px 15px; }
-      .chip .n { display: none; }
-      .topics { gap: 5px; }
-      .topics .label { width: 100%; text-align: center; margin: 0 0 2px; font-size: 13px; }
-      .topics .chip { font-size: 13.5px; padding: 4px 12px; min-height: 34px; }
-      .meta { margin-top: 34px; }
-      .meta h2 { font-size: 23px; }
-      a.card { padding: 20px 20px 18px; border-radius: 20px; }
-      .card-title { font-size: 21px; }
-      .suggest { padding: 30px 22px; }
-      .suggest h2 { font-size: 26px; }
-    }
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      * { transition: none !important; }
-      a.card:hover { transform: none; }
-    }
-  </style>
+  <meta name="theme-color" content="#FAF3E0" />
+  <meta name="slpedia-design" content="reading-lamp" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="assets/fonts/dm-sans/DMSans-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/fonts/big-shoulders/BigShoulders-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="assets/site.css" />
 </head>
 <body>
-  <div class="wrap">
-    <nav class="top" aria-label="Site">
-      <a class="word" href="./"><i aria-hidden="true"></i>SLP'edia</a>
-      <a class="top-link" href="https://github.com/FotiosMpouris/slpedia-open/issues/new/choose" target="_blank" rel="noopener">Suggest an addition</a>
-    </nav>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a class="wm" href="./" aria-label="SLP'edia home">
+      <span class="star" aria-hidden="true"><svg viewBox="0 0 100 100"><polygon id="star-pts" fill="#C8321E" points=""/></svg><b>S</b></span>
+      <span class="t">SLP'EDIA</span>
+    </a>
+    <div class="top-r">
+      <a class="ghost" href="https://github.com/FotiosMpouris/slpedia-open/issues/new/choose" target="_blank" rel="noopener" aria-label="Suggest an addition"><span id="plus1"></span><span class="lbl">Suggest an addition</span></a>
+    </div>
+  </nav>
 
-    <header class="hero">
-      <div class="orb" aria-hidden="true"></div>
-      <p class="eyebrow">A library for SLPs <span>Free and open</span></p>
-      <h1>SLP'edia</h1>
-      <p class="purpose">A free, open directory of the tools, technology and research shaping the future of speech-language pathology.</p>
+  <header class="hero">
+    <div>
+      <span class="tag">Free and open</span>
+      <h1 class="disp">The open library for <em>speech-language</em> pathology</h1>
+      <p class="lede">A free, open directory of the tools, technology and research shaping the future of speech-language pathology, gathered from around the world.</p>
+    </div>
+    <div class="ill" aria-hidden="true">
+      <svg viewBox="0 0 560 340" preserveAspectRatio="xMidYMax slice">
+        <!-- Reading room illustration: shelf, lamp and armchair -->
+        <g class="day"><polygon fill="#F4B82E" stroke="#1b1f3b" stroke-width="3" transform="translate(410 6) scale(.42)" points="170.0,2.0 193.4,52.3 234.3,14.8 236.7,70.2 288.8,51.2 269.8,103.3 325.2,105.7 287.7,146.6 338.0,170.0 287.7,193.4 325.2,234.3 269.8,236.7 288.8,288.8 236.7,269.8 234.3,325.2 193.4,287.7 170.0,338.0 146.6,287.7 105.7,325.2 103.3,269.8 51.2,288.8 70.2,236.7 14.8,234.3 52.3,193.4 2.0,170.0 52.3,146.6 14.8,105.7 70.2,103.3 51.2,51.2 103.3,70.2 105.7,14.8 146.6,52.3"/></g>
+        <g class="day"><g style="fill:var(--cloud)" stroke="#1b1f3b" stroke-width="3"><path d="M64 70q0-20 22-20q8-16 28-12q18-12 34 4q22 0 22 18q0 10-12 10h-84q-10 0-10 0z"/><path d="M236 34q0-14 16-14q6-11 20-8q13-8 24 3q16 0 16 13q0 7-9 7h-60q-7 0-7-1z"/></g></g>
+        <!-- orbit ring -->
+        <ellipse cx="300" cy="70" rx="70" ry="14" fill="none" stroke="#1b1f3b" stroke-width="3" opacity=".25" class="day"/>
+        <!-- floor -->
+        <rect x="0" y="290" width="560" height="50" fill="#1b1f3b"/>
+        <!-- shelf -->
+        <rect x="34" y="104" width="270" height="186" rx="16" fill="#fff3e0" stroke="#1b1f3b" stroke-width="4"/>
+        <path d="M34 168h270M34 230h270" stroke="#1b1f3b" stroke-width="4"/>
+        <g>
+          <rect class="book" x="52" y="118" width="20" height="50" rx="6" fill="#0e6e73" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="76" y="126" width="24" height="42" rx="6" fill="#F4B82E" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="104" y="114" width="18" height="54" rx="6" fill="#ffd8c2" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="126" y="122" width="22" height="46" rx="6" fill="#bfe3e0" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="162" y="130" width="40" height="38" rx="19" fill="#c8321e" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="214" y="118" width="20" height="50" rx="6" fill="#0e6e73" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="238" y="124" width="22" height="44" rx="6" fill="#fff" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="264" y="116" width="22" height="52" rx="6" fill="#F4B82E" stroke="#1b1f3b" stroke-width="3"/>
+        </g>
+        <g>
+          <rect class="book" x="52" y="186" width="26" height="44" rx="6" fill="#ffd8c2" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="82" y="180" width="20" height="50" rx="6" fill="#1b1f3b" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="106" y="190" width="24" height="40" rx="6" fill="#bfe3e0" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="134" y="182" width="20" height="48" rx="6" fill="#F4B82E" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="168" y="196" width="84" height="34" rx="8" fill="#0e6e73" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="258" y="184" width="26" height="46" rx="6" fill="#c8321e" stroke="#1b1f3b" stroke-width="3"/>
+        </g>
+        <g>
+          <circle cx="78" cy="262" r="16" fill="#F4B82E" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="108" y="244" width="22" height="46" rx="6" fill="#0e6e73" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="134" y="250" width="22" height="40" rx="6" fill="#fff" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="160" y="242" width="20" height="48" rx="6" fill="#ffd8c2" stroke="#1b1f3b" stroke-width="3"/>
+          <rect class="book" x="200" y="252" width="86" height="38" rx="19" fill="#bfe3e0" stroke="#1b1f3b" stroke-width="3"/>
+        </g>
+        <!-- lamp -->
+        <path d="M376 290V128" stroke="#1b1f3b" stroke-width="5" stroke-linecap="round"/>
+        <path d="M344 132q32-46 64 0z" fill="#F4B82E" stroke="#1b1f3b" stroke-width="4" stroke-linejoin="round"/>
+        <ellipse cx="376" cy="290" rx="24" ry="6" fill="#1b1f3b"/>
+        <!-- chair -->
+        <path d="M414 290l-8 0M512 290l8 0" stroke="#fff3e0" stroke-width="0"/>
+        <path d="M420 284l-10 22M506 284l10 22" stroke="#fff3e0" stroke-width="5" stroke-linecap="round"/>
+        <path d="M410 214q0-30 30-30h46q30 0 30 30v58q0 16-16 16h-74q-16 0-16-16z" fill="#0e6e73" stroke="#1b1f3b" stroke-width="4"/>
+        <rect x="398" y="240" width="130" height="34" rx="17" fill="#bfe3e0" stroke="#1b1f3b" stroke-width="4"/>
+      </svg>
+    </div>
+  </header>
 
-      <div class="controls">
-        <label class="search" for="search">
-          <input id="search" type="search" placeholder="Search the library" autocomplete="off" aria-label="Search the directory" />
-          <span class="glass" aria-hidden="true">
-            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></svg>
-          </span>
-        </label>
-        <div class="filters">
-          <div class="chips" id="chips" role="group" aria-label="Category"></div>
-          <div class="topics" id="topics" role="group" aria-label="Topic"><span class="label">Also browse</span></div>
-        </div>
+  <section class="controls" aria-label="Search and filter">
+    <div class="srow"><label class="search" for="q"><input id="q" type="search" placeholder="Search tools, studies, people, languages" autocomplete="off" aria-label="Search the library" /><span class="g" id="sicon" aria-hidden="true"></span></label><span class="status" id="status" aria-live="polite"></span></div>
+    <div class="row2">
+      <div class="cats" id="cats" role="group" aria-label="Shelf"></div>
+      <div class="topics" id="topics" role="group" aria-label="Topic"><span class="lbl">Topic</span></div>
+    </div>
+  </section>
+
+  <main>
+    <div class="shelves" id="shelves"><p class="load-error" id="loading">Loading the library...</p></div>
+    <noscript><p class="load-error">SLP'edia needs JavaScript to show the directory. You can also browse every entry in the <a href="https://github.com/FotiosMpouris/slpedia-open/tree/main/wiki" style="text-decoration:underline">wiki</a>.</p></noscript>
+    <section class="guides" id="guides"></section>
+
+    <section class="suggest" aria-labelledby="sg">
+      <svg class="burst" viewBox="0 0 100 100" aria-hidden="true"><polygon class="star2" fill="#F4B82E" stroke="#1b1f3b" stroke-width="3" points=""/></svg>
+      <div>
+        <h2 class="disp" id="sg">Know something that belongs on a shelf?</h2>
+        <p>SLP'edia grows through suggestions from clinicians, researchers and families. Share a tool, a technology or a study and it will be reviewed against our editorial standards before it goes up.</p>
       </div>
-    </header>
+      <a class="btn" href="https://github.com/FotiosMpouris/slpedia-open/issues/new/choose" target="_blank" rel="noopener"><span id="plus2"></span>Suggest an addition</a>
+    </section>
+  </main>
 
-    <main>
-      <div class="meta">
-        <h2 id="heading">Everything in the library</h2>
-        <span class="count" id="count" aria-live="polite"></span>
-      </div>
-      <div id="feed"></div>
-      <div id="empty" class="empty" hidden>
-        <p>Nothing matches that yet.</p>
-        Try another word or filter, or <a href="https://github.com/FotiosMpouris/slpedia-open/issues/new/choose" target="_blank" rel="noopener">suggest it for the library</a>.
-      </div>
-
-      <section class="suggest" aria-labelledby="suggest-title">
-        <h2 id="suggest-title">Know something that belongs here?</h2>
-        <p>SLP'edia grows through suggestions from clinicians, researchers and families. Share a tool, a technology or a study and we will review it against our editorial standards.</p>
-        <a href="https://github.com/FotiosMpouris/slpedia-open/issues/new/choose" target="_blank" rel="noopener">Suggest an addition
-          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-      </section>
-    </main>
-
-    <footer>
-      <div id="last-checked"></div>
-      <div>Open source on <a href="https://github.com/FotiosMpouris/slpedia-open" target="_blank" rel="noopener">GitHub</a>. Not affiliated with slpedia.com.</div>
-    </footer>
-  </div>
-
-  <script>
-    const CATEGORIES = [
-      { key: "all", label: "All" },
-      { key: "tools", label: "Tools" },
-      { key: "technology", label: "Technology" },
-      { key: "research", label: "Research" },
-    ];
-    const TOPICS = [
-      { key: "people", label: "People" },
-      { key: "autism", label: "Autism & kids" },
-      { key: "broader", label: "Broader SLP" },
-    ];
-    const HEADINGS = {
-      all: "Everything in the library",
-      tools: "Tools",
-      technology: "Technology",
-      research: "Research",
-      people: "People",
-      autism: "Autism & kids",
-      broader: "Broader SLP",
-    };
-    const ICONS = {
-      tools: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="3" width="12" height="18" rx="3"/><path d="M10 17h4"/></svg>',
-      technology: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M18 16l.8 2.2L21 19l-2.2.8L18 22l-.8-2.2L15 19l2.2-.8z"/></svg>',
-      research: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C6.5 4 9.5 4 12 5.5v14c-2.5-1.5-5.5-1.5-8 0z"/><path d="M20 5.5C17.5 4 14.5 4 12 5.5v14c2.5-1.5 5.5-1.5 8 0z"/></svg>',
-      people: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c1-3.5 3.8-5.5 7-5.5s6 2 7 5.5"/></svg>',
-      resource: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.5 3.5 5.5 3.5 8.5s-1 6-3.5 8.5c-2.5-2.5-3.5-5.5-3.5-8.5s1-6 3.5-8.5z"/></svg>',
-    };
-    const ARROW = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>';
-
-    let data = null;
-    let activeFilter = "all";
-    let query = "";
-
-    async function init() {
-      try {
-        const res = await fetch("./data.json");
-        data = await res.json();
-      } catch (err) {
-        document.getElementById("count").textContent = "The directory could not load. Please refresh.";
-        return;
-      }
-      renderFilters();
-      render();
-      document.getElementById("search").addEventListener("input", (e) => {
-        query = e.target.value.trim().toLowerCase();
-        render();
-      });
-      if (data.lastChecked) {
-        const d = new Date(data.lastChecked + "T12:00:00");
-        const nice = isNaN(d) ? data.lastChecked : d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
-        document.getElementById("last-checked").textContent = "Sources last checked " + nice + ".";
-      }
-    }
-
-    function countFor(key) {
-      const cards = data.cards || [];
-      return key === "all" ? cards.length : cards.filter((c) => (c.filterKeys || []).includes(key)).length;
-    }
-
-    function makeChip(f, withCount) {
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "chip";
-      btn.dataset.key = f.key;
-      btn.textContent = f.label;
-      if (withCount) {
-        const n = document.createElement("span");
-        n.className = "n";
-        n.textContent = countFor(f.key);
-        btn.appendChild(n);
-      }
-      btn.setAttribute("aria-pressed", f.key === activeFilter ? "true" : "false");
-      btn.addEventListener("click", () => {
-        activeFilter = activeFilter === f.key && f.key !== "all" ? "all" : f.key;
-        document.querySelectorAll(".chip").forEach((c) =>
-          c.setAttribute("aria-pressed", c.dataset.key === activeFilter ? "true" : "false")
-        );
-        render();
-      });
-      return btn;
-    }
-
-    function renderFilters() {
-      const chips = document.getElementById("chips");
-      CATEGORIES.forEach((f) => chips.appendChild(makeChip(f, true)));
-      const topics = document.getElementById("topics");
-      TOPICS.forEach((f) => topics.appendChild(makeChip(f, false)));
-    }
-
-    function matches(card) {
-      if (activeFilter !== "all" && !(card.filterKeys || []).includes(activeFilter)) return false;
-      if (!query) return true;
-      const hay = [card.title, card.titleOriginal, card.summary, card.people, card.region, ...(card.filters || [])]
-        .filter(Boolean).join(" ").toLowerCase();
-      return query.split(/\s+/).every((w) => hay.includes(w));
-    }
-
-    function kindOf(card) {
-      const keys = card.filterKeys || [];
-      if (keys.includes("tools")) return { key: "tools", label: "Tool" };
-      if (keys.includes("technology")) return { key: "technology", label: keys.includes("research") ? "Technology research" : "Technology", covers: ["Technology", "Research"] };
-      if (keys.includes("people")) return { key: "people", label: "People" };
-      if (keys.includes("research")) return { key: "research", label: "Research" };
-      return { key: "resource", label: "Resource" };
-    }
-
-    function el(tag, cls, text) {
-      const e = document.createElement(tag);
-      if (cls) e.className = cls;
-      if (text != null) e.textContent = text;
-      return e;
-    }
-
-    function render() {
-      const all = data.cards || [];
-      const cards = all.filter(matches);
-      const feed = document.getElementById("feed");
-      feed.innerHTML = "";
-      const frag = document.createDocumentFragment();
-
-      cards.forEach((card) => {
-        const a = el("a", "card");
-        a.href = card.url;
-        a.target = "_blank";
-        a.rel = "noopener noreferrer";
-
-        const kind = kindOf(card);
-        const k = el("div", "kind");
-        const ki = el("i");
-        ki.innerHTML = ICONS[kind.key];
-        k.appendChild(ki);
-        k.appendChild(document.createTextNode(kind.label));
-        a.appendChild(k);
-
-        a.appendChild(el("h3", "card-title", card.title));
-        a.appendChild(el("p", "card-summary", card.summary || ""));
-        if (card.titleOriginal) a.appendChild(el("p", "card-original", "Original title: " + card.titleOriginal));
-
-        const covered = kind.covers || [kind.key === "tools" ? "Tools" : kind.label];
-        const others = (card.filters || []).filter((f) => !covered.includes(f));
-        if (others.length) {
-          const tags = el("div", "tags");
-          others.forEach((f) => tags.appendChild(el("span", "tag" + (f === "Autism & kids" ? " kids" : ""), f)));
-          a.appendChild(tags);
-        }
-
-        const foot = el("div", "card-foot");
-        const who = el("div", "who");
-        if (card.people) who.appendChild(el("div", "people", card.people));
-        if (card.region) who.appendChild(el("div", "region", card.region));
-        foot.appendChild(who);
-        const open = el("span", "open");
-        open.innerHTML = ARROW;
-        foot.appendChild(open);
-        a.appendChild(foot);
-
-        frag.appendChild(a);
-      });
-      feed.appendChild(frag);
-
-      document.getElementById("empty").hidden = cards.length > 0;
-      document.getElementById("heading").textContent = HEADINGS[activeFilter] || "Everything in the library";
-      document.getElementById("count").textContent =
-        cards.length === all.length ? all.length + " entries" : cards.length + " of " + all.length + " entries";
-    }
-
-    init();
-  </script>
+  <footer>
+    <div id="checked"></div>
+    <div>Open source on <a href="https://github.com/FotiosMpouris/slpedia-open" target="_blank" rel="noopener">GitHub</a>. Not affiliated with slpedia.com.</div>
+  </footer>
+</div>
+<script src="assets/app.js"></script>
 </body>
 </html>

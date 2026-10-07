@@ -20,8 +20,10 @@ SLP'edia borrows its approach from [Future Tools](https://www.futuretools.io/), 
 
 | Path | What it is |
 |------|------------|
-| `index.html` | The directory page: search, filter chips and a card feed. One self-contained file. |
-| `data.json` | The directory data: 75 cards with title, summary, region, people, filters and link. |
+| `index.html` | The directory page: search, shelf and topic filters, and the four shelves of cards. |
+| `assets/` | The page's stylesheet (`site.css`), script (`app.js`), favicon, and self-hosted fonts with their SIL Open Font License files. |
+| `data.json` | The directory data: every card with title, summary, region, people, filters and link. The page loads it at runtime. |
+| `docs/` | [Design notes](docs/design.md) and the [colour evidence review](docs/color-evidence.md) behind the palette. |
 | `wiki/` | The long-form wiki: every card grouped by topic, plus editorial standards and a changelog. Start at [wiki/index.md](wiki/index.md). |
 | `CONTRIBUTING.md` | How to suggest a tool or study, and the bar it needs to clear. |
 | `LICENSE` | MIT License for the code. |
@@ -29,7 +31,7 @@ SLP'edia borrows its approach from [Future Tools](https://www.futuretools.io/), 
 
 ## How to browse
 
-- **Online:** the current live version is at [regal-inlet-xrbz.here.now](https://regal-inlet-xrbz.here.now/). The planned home is slpedia.world (coming soon).
+- **Online:** [slpedia.world](https://slpedia.world).
 - **In this repo:** read the [wiki](wiki/index.md), or open [`data.json`](data.json) to see every card.
 - **On your own computer:** the page loads `data.json` with `fetch`, so serve the folder instead of opening the file directly:
 
@@ -39,7 +41,11 @@ SLP'edia borrows its approach from [Future Tools](https://www.futuretools.io/), 
   python3 -m http.server 8000
   ```
 
-  Then open http://localhost:8000 in your browser. Type in the search box or pick a filter to narrow the cards. Each card links to its primary source.
+  Then open http://localhost:8000 in your browser. Type in the search box or pick a shelf or topic to narrow the cards. Each card links to its primary source.
+
+## Design notes
+
+The site uses the Reading Lamp palette: a cream page, cream cards, butter yellow and a navy accent, with dark navy text. The colours follow published evidence and accessibility guidance: warm backgrounds read faster than blue ones on screen ([Rello and Bigham, 2017](https://dl.acm.org/doi/10.1145/3132525.3132546)), the British Dyslexia Association recommends cream over white with dark text ([style guide](https://blogs.cardiff.ac.uk/LTAcademy/wp-content/uploads/sites/286/2025/10/British-Dyslexia-Association-Style-Guide.pdf)), navy and yellow stay distinct for the most common colour vision deficiencies, and all text meets WCAG 2.2 AA contrast. Details and sources are in [docs/design.md](docs/design.md) and [docs/color-evidence.md](docs/color-evidence.md).
 
 ## Suggest a tool or study
 
@@ -55,7 +61,8 @@ SLP'edia is a free, open directory of SLP tools, technology and research. It isn
 
 ## License
 
-- **Code** (`index.html` and any scripts): [MIT License](LICENSE), copyright 2026 Fotios Mpouris.
+- **Code** (`index.html`, `assets/app.js`, `assets/site.css`): [MIT License](LICENSE), copyright 2026 Fotios Mpouris.
+- **Fonts** (`assets/fonts/`): DM Sans and Big Shoulders, each under the [SIL Open Font License 1.1](assets/fonts/dm-sans/OFL.txt) ([Big Shoulders license](assets/fonts/big-shoulders/OFL.txt)).
 - **Content** (card text in `data.json` and the pages in `wiki/`): [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CONTENT.md). You can share and adapt it, including translating it for SLPs in other languages, as long as you credit SLP'edia.
 - **Third-party material keeps its own license.** Linked papers, websites and apps belong to their authors and publishers. ARASAAC symbols are CC BY-NC-SA. Nothing in this repo relicenses them.
 
