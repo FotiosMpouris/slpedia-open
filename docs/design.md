@@ -1,6 +1,6 @@
 # Design notes
 
-SLP'edia's homepage uses the **Reading Lamp** palette: a cream page, cream cards, a soft butter yellow, and a navy accent. The directory is set out as shelves: Tools, Technology, Research, and Guides and groups. The drawn reading room (shelf, lamp and armchair) sits in the Suggest card near the bottom.
+SLP'edia's homepage uses the **Reading Lamp** palette: a cream page, cream cards, a soft butter yellow, and a navy accent. The directory is set out as shelves: Tools, Technology, Research, and Guides and groups. The drawn reading room (shelf, lamp and armchair, with speech bubbles rising from the books) sits at the top of the page, between the headline and search, on a navy band for contrast.
 
 ## Layout rules
 
