@@ -1,6 +1,14 @@
 # Design notes
 
-SLP'edia's homepage uses the **Reading Lamp** palette: a cream page, cream cards, a soft butter yellow, and a navy accent. The layout is a "reading room", with a drawn shelf, lamp and armchair, and the directory set out as shelves: Tools, Technology, Research, and Guides and groups.
+SLP'edia's homepage uses the **Reading Lamp** palette: a cream page, cream cards, a soft butter yellow, and a navy accent. The directory is set out as shelves: Tools, Technology, Research, and Guides and groups. The drawn reading room (shelf, lamp and armchair) sits in the Suggest card near the bottom.
+
+## Layout rules
+
+- Search comes first. On a phone the search box is visible on first load, right under the headline.
+- One centered headline and one short line under it. No badges or highlight marks.
+- No icon-only buttons. Every control says what it does in words, for example "Suggest an addition".
+- No hidden sideways scrolling. On wide screens the shelf and topic buttons wrap onto new lines; on phones they become two plain dropdowns, Shelf and Topic.
+- Nothing on the page is wider than the screen. Check at 390 px and 1280 px before publishing.
 
 The colours were chosen from published research and accessibility guidance rather than taste alone. The full review, with strength ratings and the weaker claims we chose not to rely on, is in [color-evidence.md](color-evidence.md).
 

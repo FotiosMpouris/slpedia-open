@@ -21,8 +21,7 @@
     research: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5C6.5 4 9.5 4 12 5.5v14c-2.5-1.5-5.5-1.5-8 0z"/><path d="M20 5.5C17.5 4 14.5 4 12 5.5v14c2.5-1.5 5.5-1.5 8 0z"/></svg>',
     guides: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.5 3.5 5.5 3.5 8.5s-1 6-3.5 8.5c-2.5-2.5-3.5-5.5-3.5-8.5s1-6 3.5-8.5z"/></svg>',
     search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></svg>',
-    arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>',
-    plus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" width="20"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>'
+    arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>'
   };
   var STAR = "50.0,2.0 56.2,18.6 68.4,5.7 67.8,23.4 83.9,16.1 76.6,32.2 94.3,31.6 81.4,43.8 98.0,50.0 81.4,56.2 94.3,68.4 76.6,67.8 83.9,83.9 67.8,76.6 68.4,94.3 56.2,81.4 50.0,98.0 43.8,81.4 31.6,94.3 32.2,76.6 16.1,83.9 23.4,67.8 5.7,68.4 18.6,56.2 2.0,50.0 18.6,43.8 5.7,31.6 23.4,32.2 16.1,16.1 32.2,23.4 31.6,5.7 43.8,18.6";
   var NEW_COUNT = 3; /* the newest entries (highest ids) get a "New" badge */
@@ -67,16 +66,15 @@
 
   /* static decorations */
   $("star-pts").setAttribute("points", STAR);
-  document.querySelector(".star2").setAttribute("points", STAR);
   $("sicon").innerHTML = ICONS.search;
-  $("plus1").innerHTML = ICONS.plus;
-  $("plus2").innerHTML = ICONS.plus;
 
   var SHOW = window.innerWidth < 600 ? 3 : 5;
 
   function sync() {
     document.querySelectorAll(".cat").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.key === state.cat)); });
     document.querySelectorAll(".topic").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.key === state.topic)); });
+    $("shelf-select").value = state.cat;
+    $("topic-select").value = state.topic || "";
   }
 
   function card(c, i) {
@@ -175,6 +173,16 @@
       b.addEventListener("click", function () { state.topic = state.topic === t.key ? null : t.key; sync(); render(); });
       topics.appendChild(b);
     });
+    /* phones get two plain dropdowns instead of rows of buttons (CSS picks which one shows) */
+    var ss = $("shelf-select"), ts = $("topic-select");
+    [{ key: "all", label: "All shelves" }].concat(SHELVES).forEach(function (c) {
+      var o = el("option", null, c.label + " (" + total(c.key) + ")"); o.value = c.key; ss.appendChild(o);
+    });
+    TOPICS.forEach(function (t) { var o = el("option", null, t.label); o.value = t.key; ts.appendChild(o); });
+    ss.addEventListener("change", function () { state.cat = ss.value; sync(); render(); });
+    ts.addEventListener("change", function () { state.topic = ts.value || null; sync(); render(); });
+    sync();
+
     $("q").addEventListener("input", function (e) { state.q = e.target.value.trim().toLowerCase(); render(); });
 
     if (data.lastChecked) {
