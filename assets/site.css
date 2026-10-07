@@ -255,3 +255,22 @@ footer a{text-decoration:underline;text-underline-offset:3px;font-weight:600}
 .new{top:-11px}
 .more{background:var(--t);border-color:var(--edge)}
 .more:hover{background:var(--s)}
+
+/* Newsletter: one filled navy button in the top bar, on every screen size */
+.top-links{display:flex;align-items:center;gap:22px}
+.nl{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border:3px solid #1b1f3b;border-radius:999px;background:var(--teal);color:#fff;font-weight:700;font-size:17px;box-shadow:4px 4px 0 #1b1f3b;transition:transform .12s,box-shadow .12s;white-space:nowrap}
+.nl:hover{transform:translate(-1px,-1px);box-shadow:5px 5px 0 #1b1f3b}
+.nl:active{transform:translate(4px,4px);box-shadow:none}
+@media (max-width:560px){
+  .top{justify-content:space-between}
+  .nl{min-height:46px;padding:0 20px;font-size:16px}
+}
+
+/* Equal cards: every card is as tall as one with a three-line title and a one-line summary.
+   Longer titles end in an ellipsis after three lines. Shelves share rows, so headers and cards line up. */
+.card{min-height:127.75px} /* 2 x 14px padding + 2 x 2.5px border + 3 x 22.5px title + 4px gap + 23.25px summary */
+.card h3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;max-height:calc(1.25em * 3)}
+@supports (grid-template-rows:subgrid){
+  .shelves{grid-template-rows:auto auto auto}
+  .shelf{display:grid;grid-row:span 3;grid-template-rows:subgrid;row-gap:0;align-self:stretch}
+}
