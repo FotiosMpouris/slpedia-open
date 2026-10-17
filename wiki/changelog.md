@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-17: Weekly refresh (+4 cards)
+
+- Directory updated to **82 cards**, sources last checked 2026-10-17.
+- Tools: Asterics AAC (AsTeRICS Grid).
+- Research: Kawar 2026 (AAC in the Arab community in Israel); Sharma, Krupa & Ramkumar 2026 (high-tech AAC in Asia); Spencer, Tönsing & Dada 2026 (AAC interventions that promote commenting).
+
 ## 2026-10-07: GitHub link in the top bar
 
 - A small "GitHub" link with the GitHub logo now sits next to "Email a suggestion" and opens the open-source repo in a new tab.

@@ -1,7 +1,7 @@
 {
   "title": "SLP'edia",
   "tagline": "A free, open directory of the tools, technology and research shaping the future of speech-language pathology.",
-  "lastChecked": "2026-10-07",
+  "lastChecked": "2026-10-17",
   "filters": [
     {
       "key": "all",
@@ -1344,6 +1344,74 @@
       "url": "https://doi.org/10.1080/07434618.2026.2716690",
       "people": "Cheah, Joginder Singh, Ling, Ahmad Rusli, Andzik",
       "id": 93
+    },
+    {
+      "id": 94,
+      "title": "Asterics AAC (AsTeRICS Grid): free open-source browser AAC",
+      "filters": [
+        "Tools",
+        "Broader SLP",
+        "Autism & kids"
+      ],
+      "region": "Global, open-source AAC (browser / PWA)",
+      "summary": "Free, open-source (AGPL-3.0) grid AAC in the browser on computer, phone or tablet: no install, offline use, optional end-to-end-encrypted sync, text-to-speech, word prediction, global core-vocabulary grid, ARASAAC and Open Symbols search. Wide access: touch, keyboard, scanning, single switch, and eye or head tracking via the AsTeRICS Framework. Not a native app-store device; advanced access needs extra setup.",
+      "url": "https://grid.asterics.eu/",
+      "people": "",
+      "filterKeys": [
+        "tools",
+        "broader",
+        "autism"
+      ]
+    },
+    {
+      "id": 95,
+      "title": "AAC for non-speaking autistic children in the Arab community in Israel (Kawar, 2026)",
+      "filters": [
+        "Research",
+        "Autism & kids",
+        "Broader SLP"
+      ],
+      "region": "Israel (Arab community), Augmentative and Alternative Communication",
+      "summary": "Qualitative interviews with 20 Arab parents of non-speaking autistic children (ages 6-9). Five themes: parental meaning-making, family and stigma, school training and continuity, scarce Arabic- and dialect-fitting AAC tools, and parental agency. Calls for culturally responsive training and Arabic-language resources.",
+      "url": "https://doi.org/10.1080/07434618.2026.2716671",
+      "people": "Khaloob Kawar",
+      "filterKeys": [
+        "research",
+        "autism",
+        "broader"
+      ]
+    },
+    {
+      "id": 96,
+      "title": "High-tech AAC in Asia: narrative review (Sharma, Krupa & Ramkumar, 2026)",
+      "filters": [
+        "Research",
+        "Broader SLP"
+      ],
+      "region": "Asia (11 countries), Disability and Rehabilitation: Assistive Technology",
+      "summary": "PRISMA-guided review of 29 studies (2015-2025) from 11 Asian countries. Low-tech AAC is common in lower-income countries; high-tech adoption lags. Barriers: cost, thin professional training, attitudes, limited government support. Proposes localized training, policy advocacy and affordable devices, pending real-world testing.",
+      "url": "https://doi.org/10.1080/17483107.2026.2709296",
+      "people": "Kamal Sharma, Murugesan Krupa, Vidya Ramkumar",
+      "filterKeys": [
+        "research",
+        "broader"
+      ]
+    },
+    {
+      "id": 97,
+      "title": "AAC interventions that promote commenting: systematic review (Spencer, Tönsing & Dada, 2026)",
+      "filters": [
+        "Research",
+        "Autism & kids"
+      ],
+      "region": "United States / South Africa, Augmentative and Alternative Communication",
+      "summary": "Review of 14 single-case studies teaching children with communication disabilities to comment, not just request. Strongest support for least-to-most prompting with aided modeling during book reading, but too few studies to recommend with certainty.",
+      "url": "https://doi.org/10.1080/07434618.2025.2477694",
+      "people": "Trina D. Spencer, Kerstin Tönsing, Shakila Dada",
+      "filterKeys": [
+        "research",
+        "autism"
+      ]
     }
   ]
 }
