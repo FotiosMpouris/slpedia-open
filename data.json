@@ -1,7 +1,7 @@
 {
   "title": "SLP'edia",
   "tagline": "A free, open directory of the tools, technology and research shaping the future of speech-language pathology.",
-  "lastChecked": "2026-10-17",
+  "lastChecked": "2026-10-19",
   "filters": [
     {
       "key": "all",
@@ -692,7 +692,7 @@
         "Autism & kids"
       ],
       "region": "United States (used internationally)",
-      "summary": "Robust AAC vocabulary app built around Language Acquisition through Motor Planning (LAMP): consistent motor plans for words so language can grow without relearning paths. Especially common with autistic and other developmental communicators; iOS and PRC-Saltillo devices.",
+      "summary": "Robust AAC vocabulary app built around Language Acquisition through Motor Planning (LAMP): consistent motor plans for words so language can grow without relearning paths. Especially common with autistic and other developmental communicators; iOS and PRC-Saltillo devices. October 2026 update (app 2026.3): a new \"LAMP Words for Life: Visual Impairment\" vocabulary for blind and low-vision users keeps the motor plans and adds high-contrast symbols and layout changes; a tactile KeyGuide is coming.",
       "url": "https://lampwflapp.com/",
       "people": "PRC-Saltillo; Center for AAC & Autism (LAMP approach)",
       "filterKeys": [
@@ -1092,7 +1092,7 @@
         "broader"
       ],
       "region": "United States / global, Tobii Dynavox",
-      "summary": "Cross-platform AAC page-set software (Core First, Motor Plan, Text, Aphasia, PODD add-on) with touch, eye-gaze, and switch. Often paired with Tobii hardware; also available as iPad subscription. Major clinical AAC system families actually evaluate.",
+      "summary": "Cross-platform AAC page-set software (Core First, Motor Plan, Text, Aphasia, PODD add-on) with touch, eye-gaze, and switch. Often paired with Tobii hardware; also available as iPad subscription. Major clinical AAC system families actually evaluate. October 2026 update: the Express page set now comes in Korean and Traditional Chinese (Cantonese), with localized symbols, voices, interface and input, plus more ElevenLabs voice models and controls.",
       "url": "https://us.tobiidynavox.com/products/td-snap",
       "people": "",
       "id": 78
@@ -1411,6 +1411,38 @@
       "filterKeys": [
         "research",
         "autism"
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Video visual scene displays for peer play (Mishra, Wang & Scott, 2026)",
+      "filters": [
+        "Research",
+        "Autism & kids"
+      ],
+      "region": "United States, Journal of Autism and Developmental Disorders",
+      "summary": "Single-case study across 15 pairs of minimally speaking autistic children and neurotypical peers. Moving from printed visual scene displays to video scene displays with speech output brought an immediate jump in peer-directed communication turns during play, with large effects that held at follow-up. Peer-to-peer AAC in real play, not adult-led request training. One research group, single-case design.",
+      "url": "https://doi.org/10.1007/s10803-026-07564-1",
+      "people": "Avinash Mishra, Jasmine Wang, Lindsay Scott",
+      "filterKeys": [
+        "research",
+        "autism"
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Tamil core vocabulary for preschoolers (Devaneson, Geetha & Hariharan, 2026)",
+      "filters": [
+        "Research",
+        "Broader SLP"
+      ],
+      "region": "India, International Journal of Speech-Language Pathology",
+      "summary": "Home play recordings of 50 typically developing Tamil-speaking 3- to 4-year-olds with their parents. A root-word method built for Tamil's grammar found 51 root words covering 54.6% of everything the children said, mostly verbs and nouns. Reference data for AAC vocabularies that fit the language and culture, and a clear case for why English core word lists don't carry over. Children were not AAC users.",
+      "url": "https://doi.org/10.1080/17549507.2026.2742284",
+      "people": "Sharon Rose Devaneson, Arya Geetha, Savitha Vadakkanthara Hariharan",
+      "filterKeys": [
+        "research",
+        "broader"
       ]
     }
   ]

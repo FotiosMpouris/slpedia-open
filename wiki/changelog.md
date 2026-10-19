@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-19: Weekly refresh (+2 cards, 2 updated)
+
+- Directory updated to **84 cards**, sources last checked 2026-10-19.
+- Research: Mishra, Wang & Scott 2026 (video visual scene displays for peer play); Devaneson, Geetha & Hariharan 2026 (Tamil core vocabulary for preschoolers).
+- Updated: TD Snap (Express page set in Korean and Cantonese); LAMP Words for Life (2026.3 Visual Impairment vocabulary).
+
 ## 2026-10-17: Weekly refresh (+4 cards)
 
 - Directory updated to **82 cards**, sources last checked 2026-10-17.
