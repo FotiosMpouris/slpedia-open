@@ -1,7 +1,7 @@
 {
   "title": "SLP'edia",
   "tagline": "A free, open directory of the tools, technology and research shaping the future of speech-language pathology.",
-  "lastChecked": "2026-10-19",
+  "lastChecked": "2026-10-31",
   "filters": [
     {
       "key": "all",
@@ -675,7 +675,7 @@
         "Broader SLP"
       ],
       "region": "United States (used internationally)",
-      "summary": "Full-featured iOS/Mac AAC app from PRC-Saltillo for people who have difficulty using natural speech (autism, Down syndrome, ALS, aphasia, and related). Customizable vocabularies; WordPower available bundled or separately; touch, scanning, and head-tracking access options.",
+      "summary": "Full-featured iOS/Mac AAC app from PRC-Saltillo for people who have difficulty using natural speech (autism, Down syndrome, ALS, aphasia, and related). Customizable vocabularies; WordPower available bundled or separately; touch, scanning, and head-tracking access options. October 2026 update (2026.3): optional communicator-controlled AI Learning Mode and Personas for AI Message Edit (iOS 26, select hardware), a modern Minspeak symbol set, updated Acapela voices and an in-app feedback centre; VocaliD voices were removed.",
       "url": "https://touchchatapp.com/touchchat-hd-aac",
       "people": "PRC-Saltillo",
       "filterKeys": [
@@ -1440,6 +1440,54 @@
       "summary": "Home play recordings of 50 typically developing Tamil-speaking 3- to 4-year-olds with their parents. A root-word method built for Tamil's grammar found 51 root words covering 54.6% of everything the children said, mostly verbs and nouns. Reference data for AAC vocabularies that fit the language and culture, and a clear case for why English core word lists don't carry over. Children were not AAC users.",
       "url": "https://doi.org/10.1080/17549507.2026.2742284",
       "people": "Sharon Rose Devaneson, Arya Geetha, Savitha Vadakkanthara Hariharan",
+      "filterKeys": [
+        "research",
+        "broader"
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Moving the chosen symbol helps learners with Down syndrome (Sowers, Light et al., 2026)",
+      "filters": [
+        "Research",
+        "Broader SLP"
+      ],
+      "region": "United States (Penn State), Augmentative and Alternative Communication",
+      "summary": "Eye-tracking study over three sessions. When the selected symbol slid smoothly to the center of a decluttered display, participants with Down syndrome looked at it longer than with a static grid, and their symbol identification kept improving across sessions while static-display performance leveled off. A concrete, testable display-design idea from the Light and Wilkinson lab. Preliminary, small sample; many participants still found identification hard in both conditions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42900461/",
+      "people": "D. J. Sowers, S. Brittlebank, H. Panfil, O. McAllister, B. F. Semmler, K. Wilkinson, J. Light",
+      "filterKeys": [
+        "research",
+        "broader"
+      ]
+    },
+    {
+      "id": 101,
+      "title": "AAC opportunity barriers in the country of Georgia (Johnston, Tsintsadze, Raines & Parten, 2026)",
+      "filters": [
+        "Research",
+        "Broader SLP"
+      ],
+      "region": "Georgia (country), Augmentative and Alternative Communication",
+      "summary": "Mixed-methods study with 55 professionals, 13 of whom also joined focus groups. Barriers showed up in policy (little regulation, uneven funding), practice (workforce shortages, fragmented coordination), attitudes (the belief that AAC hurts speech) and skills (assessment and system selection), plus burnout. Collaboration, advocacy and optimism helped. Professional views only, not AAC users or families.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42895791/",
+      "people": "S. S. Johnston, N. Tsintsadze, A. Raines, C. Parten",
+      "filterKeys": [
+        "research",
+        "broader"
+      ]
+    },
+    {
+      "id": 102,
+      "title": "A structured AAC assessment form for Turkey (Günhan Şenol & Sazoğlu Karadağ, 2026)",
+      "filters": [
+        "Research",
+        "Broader SLP"
+      ],
+      "region": "Turkey, Clinical Linguistics & Phonetics",
+      "summary": "Introduces the Communication, Language, Speech and AAC Assessment Form, piloted with 26 people with complex communication needs aged 6 to 58. Nine speech and language therapists said it guided decisions and family involvement, though it is long. A structured, culturally fitted tool where clinicians mostly relied on informal observation. Pilot and interviews only; no validity statistics yet.",
+      "url": "https://doi.org/10.1080/02699206.2026.2748019",
+      "people": "N. E. Günhan Şenol, B. Sazoğlu Karadağ",
       "filterKeys": [
         "research",
         "broader"

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-31: Weekly refresh (+3 cards, 1 updated)
+
+- Directory updated to **87 cards**, sources last checked 2026-10-31.
+- Research: Sowers, Light et al. 2026 (moving the chosen symbol, Down syndrome, eye tracking); Johnston, Tsintsadze, Raines & Parten 2026 (AAC barriers in Georgia); Günhan Şenol & Sazoğlu Karadağ 2026 (AAC assessment form for Turkey).
+- Updated: TouchChat HD (2026.3 AI Learning Mode, Minspeak symbols, Acapela voices; VocaliD voices removed).
+
 ## 2026-10-19: Weekly refresh (+2 cards, 2 updated)
 
 - Directory updated to **84 cards**, sources last checked 2026-10-19.
