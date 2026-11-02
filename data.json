@@ -1,7 +1,7 @@
 {
   "title": "SLP'edia",
   "tagline": "A free, open directory of the tools, technology and research shaping the future of speech-language pathology.",
-  "lastChecked": "2026-10-31",
+  "lastChecked": "2026-11-02",
   "filters": [
     {
       "key": "all",
@@ -1491,6 +1491,104 @@
       "filterKeys": [
         "research",
         "broader"
+      ]
+    },
+    {
+      "id": 103,
+      "title": "My AAC (나의AAC): free Korean AAC app (NC Cultural Foundation)",
+      "filters": [
+        "Tools",
+        "Autism & kids",
+        "Broader SLP"
+      ],
+      "region": "South Korea, NC Cultural Foundation",
+      "summary": "Free Korean-language AAC app for iPhone, iPad and Android. Custom boards with about 10,000 symbols, including the Korean AAC (KAAC) symbols, the Seoul communication-rights centre's Communi symbols and NC's own set, plus Google image search and your own photos. Type-to-speak with AI voices you can tune for speed, pitch, tone and emotion; story-making for diaries or visual schedules; symbol suggestions from use; caregiver accounts that manage several users, share boards and see usage stats. Usable without sign-up, but some features need an account; phone and tablet don't sync. Updated Sept 2026; App Store reviews report some editing bugs.",
+      "url": "https://www.myaac.or.kr/",
+      "people": "NC Cultural Foundation",
+      "filterKeys": [
+        "tools",
+        "autism",
+        "broader"
+      ]
+    },
+    {
+      "id": 104,
+      "title": "WeTalk AAC (위톡AAC): free AAC from Korea's National Institute of Special Education",
+      "filters": [
+        "Tools",
+        "Autism & kids"
+      ],
+      "region": "South Korea, National Institute of Special Education",
+      "summary": "Free government-made AAC app for people with developmental disabilities, built on the institute's own pictograms (developed in 2019, with more added in 2021). Android and iPad, optimized for tablets; both store listings say no data is collected. The institute also offers its 207 pictogram cards from 2019 as a free download. Basic compared with commercial apps and small reach (8 App Store ratings); updated Oct 2026 (v1.0.8).",
+      "url": "https://play.google.com/store/apps/details?id=com.nise.aacmulti",
+      "people": "National Institute of Special Education (Korea)",
+      "filterKeys": [
+        "tools",
+        "autism"
+      ]
+    },
+    {
+      "id": 105,
+      "title": "How children who use Blissymbolics work around missing words (Jacobsson et al., 2026)",
+      "filters": [
+        "Research",
+        "Broader SLP"
+      ],
+      "region": "Sweden / Norway, Augmentative and Alternative Communication",
+      "summary": "Five Swedish children aged 6½ to 14 with severe motor impairments who use Blissymbolics did five tasks from the Becoming an Aided Communicator (BAC) project. When the Bliss-word they needed wasn't on their aid, they made 164 substitutions; most (57.3%) showed semantic awareness, the rest linguistic or graphic awareness. Suggests Bliss's combinable characters let children build new meanings from a limited vocabulary. Five children, descriptive study.",
+      "url": "https://doi.org/10.1080/07434618.2026.2748025",
+      "people": "Lovisa Jacobsson, Kristine Stadskleiv, Stephen von Tetzchner, Margareta Jennische",
+      "filterKeys": [
+        "research",
+        "broader"
+      ]
+    },
+    {
+      "id": 106,
+      "title": "Including non-speaking autistic children directly in qualitative research: scoping review (Trew, Russell & Lawson, 2026)",
+      "filters": [
+        "Research",
+        "Autism & kids"
+      ],
+      "region": "Australia, Child Psychiatry & Human Development",
+      "summary": "Scoping review (PRISMA-ScR) that screened 2,092 records and found 11 studies (2012 to 2025) where non-speaking or minimally verbal autistic children aged 5 to 18 were direct sources of qualitative data. Most used video observation. Studies differed in how they fit the method to the child's communication system, how they reported consent and assent, and how much time they spent building relationships; five treated refusal and resistance as communication. Shows direct participation is possible. Small evidence base; studies not fully independent.",
+      "url": "https://doi.org/10.1007/s10578-026-02117-0",
+      "people": "Sebastian Trew (Deakin), Douglas H. Russell (Australian Catholic University), Wenn B. Lawson (Curtin)",
+      "filterKeys": [
+        "research",
+        "autism"
+      ]
+    },
+    {
+      "id": 107,
+      "title": "More conversational turns, bigger vocabularies, when toddlers have AAC (Merilan-Mundava, Sevcik & Romski, 2026)",
+      "filters": [
+        "Research",
+        "Broader SLP"
+      ],
+      "region": "United States, American Journal of Speech-Language Pathology",
+      "summary": "Secondary analysis of two parent-coached studies (Romski et al. 2010 and 2025): 109 toddlers with developmental delays and their parents, randomly assigned to augmented input, augmented output, both, or spoken communication only, in a 12-week intervention. Parent-child conversational turns grew in a curved pattern over the sessions. More turns went with larger vocabularies only in the AAC conditions, not spoken-only. Supports pairing AAC with plenty of back-and-forth. Archival data; an association, not proof of cause.",
+      "url": "https://doi.org/10.1044/2026_AJSLP-25-00484",
+      "people": "Syrina J. Merilan-Mundava, Rose A. Sevcik, MaryAnn Romski (Georgia State University)",
+      "filterKeys": [
+        "research",
+        "broader"
+      ]
+    },
+    {
+      "id": 108,
+      "title": "What predicts gains from a peer-partner SGD intervention (Bourque, Steinbrenner, Weaver & Padak, 2026)",
+      "filters": [
+        "Research",
+        "Autism & kids"
+      ],
+      "region": "United States, Behavioral Sciences",
+      "summary": "56 autistic children aged 3 to 6 with limited or no spoken language, each paired with 1 to 3 non-autistic peers (107 in all) who learned Stay-Play-Talk; trained school staff ran 10 play sessions, and every child had a speech-generating app. Children improved on three social-communication outcomes. Pre-treatment expressive language, autism characteristics or nonverbal cognitive skills each predicted at least one outcome. Helps teams decide what to build first. Open access; one intervention, predictor analysis.",
+      "url": "https://doi.org/10.3390/bs16101962",
+      "people": "Kathy S. Bourque, Jessica R. Steinbrenner, Janet B. Weaver, Alexa M. Padak (University of Kansas, UNC Chapel Hill)",
+      "filterKeys": [
+        "research",
+        "autism"
       ]
     }
   ]

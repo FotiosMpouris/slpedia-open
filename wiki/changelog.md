@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-02: Weekly refresh (+6 cards)
+
+- Directory updated to **93 cards**, sources last checked 2026-11-02.
+- Tools: My AAC (나의AAC, NC Cultural Foundation, Korea); WeTalk AAC (위톡AAC, Korea's National Institute of Special Education).
+- Research: Jacobsson, Stadskleiv, von Tetzchner & Jennische 2026 (how Blissymbol users work around missing vocabulary); Trew, Russell & Lawson 2026 (including non-speaking autistic children in qualitative research); Merilan-Mundava, Sevcik & Romski 2026 (conversational turns, vocabulary and AAC in toddlers); Bourque, Steinbrenner, Weaver & Padak 2026 (who benefits from peer-partner speech-generating device teaching).
+
 ## 2026-10-31: Weekly refresh (+3 cards, 1 updated)
 
 - Directory updated to **87 cards**, sources last checked 2026-10-31.
