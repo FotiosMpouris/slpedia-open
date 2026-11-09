@@ -1,7 +1,7 @@
 {
   "title": "SLP'edia",
   "tagline": "A free, open directory of the tools, technology and research shaping the future of speech-language pathology.",
-  "lastChecked": "2026-11-02",
+  "lastChecked": "2026-11-09",
   "filters": [
     {
       "key": "all",
@@ -1586,6 +1586,54 @@
       "summary": "56 autistic children aged 3 to 6 with limited or no spoken language, each paired with 1 to 3 non-autistic peers (107 in all) who learned Stay-Play-Talk; trained school staff ran 10 play sessions, and every child had a speech-generating app. Children improved on three social-communication outcomes. Pre-treatment expressive language, autism characteristics or nonverbal cognitive skills each predicted at least one outcome. Helps teams decide what to build first. Open access; one intervention, predictor analysis.",
       "url": "https://doi.org/10.3390/bs16101962",
       "people": "Kathy S. Bourque, Jessica R. Steinbrenner, Janet B. Weaver, Alexa M. Padak (University of Kansas, UNC Chapel Hill)",
+      "filterKeys": [
+        "research",
+        "autism"
+      ]
+    },
+    {
+      "id": 109,
+      "title": "Weave Chat AAC: free, customizable AAC app made by an SLP and an engineer",
+      "filters": [
+        "Tools",
+        "Broader SLP"
+      ],
+      "region": "Global (iOS, Android, Kindle), Weave Chat, LLC",
+      "summary": "Free category-based AAC app for phones and tablets on iOS, Android and Kindle; the makers say it is free and always will be. Over 3,500 preconfigured words and a library of more than 65,000 symbols, colour-coded with the Fitzgerald key, with vocabulary added weekly. A default scrolling board plus grid layouts from 1x2 to 7x15 and a Board Builder for boards from scratch; custom words, images, categories and saved phrases; up to 30 seconds of recorded audio on a button; device voices with adjustable pitch and rate; a PIN to lock editing; and picture-symbol messages you can 'text' to other app users. Created and maintained by a speech-language pathologist and an engineer, with volunteer translators: the website lists 25 languages, though the App Store listing still says buttons are English only. About 550 App Store ratings (4.7) and 10K+ Android installs (272 ratings, 4.4); updated Nov 7 2026 (v1.28.10).",
+      "url": "https://www.weavechat.com/",
+      "people": "Weave Chat, LLC (an SLP and an engineer)",
+      "filterKeys": [
+        "tools",
+        "broader"
+      ]
+    },
+    {
+      "id": 110,
+      "title": "Vocable AAC: free, open-source hands-free AAC using head tracking (WillowTree)",
+      "filters": [
+        "Tools",
+        "Broader SLP"
+      ],
+      "region": "Global, open-source (MIT) iOS and Android app",
+      "summary": "Free app that lets people whose conditions limit speech and movement communicate by moving their head: the front camera tracks head movement on supported devices (ARCore on Android; iPhone X or later and iPad Pro 11-inch or later on iOS), and touch works everywhere. Preset phrases in categories, typed custom phrases saved for quick access, text-to-speech with in-app voice choice and Apple Personal Voice, and a QWERTY or alphabetical keyboard under head tracking. The iOS listing adds AI help during live conversation; the Listening Mode demo is English only. Started at WillowTree after a designer's loved one was left temporarily non-verbal by Guillain-Barré syndrome; the roadmap was built with Duke University speech-language pathologists, and the code is open on GitHub. Aimed at adults with MS, stroke, ALS or spinal cord injury rather than children. iOS v1.7 (Feb 2026), 62 ratings (4.5); Android 5K+ installs, updated Sept 2026.",
+      "url": "https://www.vocable.app/",
+      "people": "WillowTree team (publisher WillowRoot Apps, LLC), with Duke University speech-language pathologists",
+      "filterKeys": [
+        "tools",
+        "broader"
+      ]
+    },
+    {
+      "id": 111,
+      "title": "Should AAC follow 'gestalt language processing'? A construction-grammar critique (Hutchins, Knox & Fletcher, 2026)",
+      "filters": [
+        "Research",
+        "Autism & kids"
+      ],
+      "region": "United States, Autism & Developmental Language Impairments",
+      "summary": "Argument paper on the Natural Language Acquisition (NLA) framework and 'gestalt language processing' (GLP), which the authors say are spreading through clinical training and online professional communities and now shape AAC advice for autistic children, although no peer-reviewed research has tested NLA in AAC. It questions three NLA assumptions (that words are language's building blocks, that autistic learners are 'gestalt' processors, and that neurotypical learners acquire language one word at a time) and sets them against a Construction Grammar account. It argues against programming an unanalyzed multiword 'gestalt' onto a single AAC button, and against carrying over other NLA advice such as limits on verbs, grammar and recasts. Instead it recommends robust systems, grammatically complete modeling, recasts, varied sentences and structured interaction; the task, the authors say, is not to sort learners into gestalt or analytic processors but to make language patterns salient. Open access (CC BY-NC); no new data.",
+      "url": "https://doi.org/10.1177/23969415261487032",
+      "people": "Tiffany L. Hutchins (University of Vermont), S. E. Knox, E. C. Fletcher (Integrated Therapy Services, Camarillo, CA)",
       "filterKeys": [
         "research",
         "autism"

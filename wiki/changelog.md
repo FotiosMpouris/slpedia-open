@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-09: Weekly refresh (+3 cards)
+
+- Directory updated to **96 cards**, sources last checked 2026-11-09.
+- Tools: Weave Chat AAC (free, customizable AAC app made by a speech-language pathologist and an engineer); Vocable AAC (free, open-source hands-free AAC using head tracking, from WillowTree).
+- Research: Hutchins, Knox & Fletcher 2026 (a construction-grammar critique of "gestalt language processing" advice for AAC).
+
 ## 2026-11-02: Weekly refresh (+6 cards)
 
 - Directory updated to **93 cards**, sources last checked 2026-11-02.
