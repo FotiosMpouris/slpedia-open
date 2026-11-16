@@ -1,7 +1,7 @@
 {
   "title": "SLP'edia",
   "tagline": "A free, open directory of the tools, technology and research shaping the future of speech-language pathology.",
-  "lastChecked": "2026-11-09",
+  "lastChecked": "2026-11-16",
   "filters": [
     {
       "key": "all",
@@ -1634,6 +1634,22 @@
       "summary": "Argument paper on the Natural Language Acquisition (NLA) framework and 'gestalt language processing' (GLP), which the authors say are spreading through clinical training and online professional communities and now shape AAC advice for autistic children, although no peer-reviewed research has tested NLA in AAC. It questions three NLA assumptions (that words are language's building blocks, that autistic learners are 'gestalt' processors, and that neurotypical learners acquire language one word at a time) and sets them against a Construction Grammar account. It argues against programming an unanalyzed multiword 'gestalt' onto a single AAC button, and against carrying over other NLA advice such as limits on verbs, grammar and recasts. Instead it recommends robust systems, grammatically complete modeling, recasts, varied sentences and structured interaction; the task, the authors say, is not to sort learners into gestalt or analytic processors but to make language patterns salient. Open access (CC BY-NC); no new data.",
       "url": "https://doi.org/10.1177/23969415261487032",
       "people": "Tiffany L. Hutchins (University of Vermont), S. E. Knox, E. C. Fletcher (Integrated Therapy Services, Camarillo, CA)",
+      "filterKeys": [
+        "research",
+        "autism"
+      ]
+    },
+    {
+      "id": 112,
+      "title": "Autistic children's gesture is reorganized, not reduced (Ghobadi & Durrleman, 2026)",
+      "filters": [
+        "Research",
+        "Autism & kids"
+      ],
+      "region": "Switzerland and United States (English, French, German), Journal of Autism and Developmental Disorders",
+      "summary": "52 children aged 3 to 12 (28 autistic, 24 neurotypical) told the ADOS-2 'Monkey Story' picture sequence either to a plush toy or to an adult. Speech did not differ by diagnosis or by listener once age and nonverbal IQ were accounted for. Gesture did: with an adult listener, autistic children produced more complex gesture-speech combinations (gestures adding information not said in words), and gesture amount showed a trend in the same direction; telling the story to a toy instead of a person made no reliable difference for either group. The authors say this cautions against describing autistic communication only as reduced gesture (an item in tools such as the ADOS-2) and suggest looking at gesture complexity and gesture-speech integration, not just frequency. It follows the same team's larger study (88 children matched on age, SES and nonverbal IQ, learning English, French, German or Spanish; Autism & Developmental Language Impairments, Sep 2026), in which autistic children gestured more often, with more variety and complexity, which they call a reorganization of multimodal communication rather than a reduction. Open access; data on OSF.",
+      "url": "https://doi.org/10.1007/s10803-026-07600-0",
+      "people": "Armita Ghobadi (Barnard College, Columbia University), Stephanie Durrleman (University of Fribourg)",
       "filterKeys": [
         "research",
         "autism"

@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-16: Weekly refresh (+1 card)
+
+- Directory updated to **97 cards**, sources last checked 2026-11-16.
+- Research: Ghobadi & Durrleman 2026 (autistic children's gesture during storytelling is reorganized, not reduced; with the same team's four-language study).
+
 ## 2026-11-09: Weekly refresh (+3 cards)
 
 - Directory updated to **96 cards**, sources last checked 2026-11-09.
