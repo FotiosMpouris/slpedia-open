@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-23: Weekly refresh (+1 card, 1 updated)
+
+- Directory updated to **98 cards**, sources last checked 2026-11-23.
+- Research: Denusik et al. 2026 (umbrella review and quick reference guide of speech-language interventions for autistic children and youth).
+- Updated: Predictable (PRC-Saltillo makes it its main text-based iOS app, coming to Via devices; Dialogue AAC retiring).
+
 ## 2026-11-16: Weekly refresh (+1 card)
 
 - Directory updated to **97 cards**, sources last checked 2026-11-16.

@@ -1,7 +1,7 @@
 {
   "title": "SLP'edia",
   "tagline": "A free, open directory of the tools, technology and research shaping the future of speech-language pathology.",
-  "lastChecked": "2026-11-16",
+  "lastChecked": "2026-11-23",
   "filters": [
     {
       "key": "all",
@@ -1098,7 +1098,7 @@
       "id": 78
     },
     {
-      "title": "Predictable (Therapy Box)",
+      "title": "Predictable (Therapy Box / PRC-Saltillo)",
       "filters": [
         "Tools",
         "Broader SLP"
@@ -1107,8 +1107,8 @@
         "tools",
         "broader"
       ],
-      "region": "United Kingdom, Therapy Box",
-      "summary": "Text-first AAC with word prediction, phrase banking, multi-language support, and flexible access (touch, scanning, switch). Strong pathway for literate and acquired-communication users. Fills a gap if the desk is heavy on symbol AAC.",
+      "region": "United Kingdom, Therapy Box (now part of PRC-Saltillo's app family)",
+      "summary": "Text-first AAC with word prediction, phrase banking, multi-language support, and flexible access (touch, scanning, switch). Strong pathway for literate and acquired-communication users. Fills a gap if the desk is heavy on symbol AAC. Update (Nov 2026): PRC-Saltillo now makes Predictable its main text-based AAC app for iOS. It is coming to its fundable Via devices in the U.S. and Canada alongside LAMP Words for Life, TouchChat and Unity, and it replaces Dialogue AAC, which is retiring (final update 2026.4 expected December 2026, removal from the App Store in spring 2027). Current Dialogue users are offered a no-cost move to Predictable, with message banking transferable.",
       "url": "https://www.therapybox.co.uk/predictable-english",
       "people": "",
       "id": 79
@@ -1654,6 +1654,22 @@
         "research",
         "autism"
       ]
+    },
+    {
+      "id": 113,
+      "title": "Which speech-language interventions for autistic children have consistent evidence? An umbrella review (Denusik et al., 2026)",
+      "filters": [
+        "Research",
+        "Autism & kids"
+      ],
+      "filterKeys": [
+        "research",
+        "autism"
+      ],
+      "region": "Canada (Western University, University of Toronto), Autism & Developmental Language Impairments",
+      "summary": "A pre-registered umbrella review (PROSPERO CRD42022343166) of 23 systematic reviews of randomized controlled trials covering interventions SLPs report using with autistic children and youth, turned into summary tables and quick reference guides. Seven approaches (caregiver-delivered, joint attention, technology-assisted caregiver-delivered, play-based, pragmatic, social pragmatic, social skills) all had consistent evidence for at least one positive outcome, as did four of six manualized programs (ESDM, JASPER, PEERS, Social Stories). Where effects were consistent across multiple RCTs: caregiver-delivered interventions improved cognition but not expressive language or non-spoken communication; joint attention approaches improved social communication and joint attention; technology-assisted caregiver-mediated approaches improved emotion regulation but not language or social communication; ESDM improved cognition and overall language but not social communication; JASPER improved engagement; PRT did not improve social communication. The authors say differences in outcome measures and evidence quality mean relative efficacy cannot be ranked, and the guide is meant to be used alongside clinical experience and family preferences. Open access (CC BY).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13774603/",
+      "people": "Lauren Denusik, Lauren Choi, Amanda Binns, Alison Rushton, Janis Oram (Western University; University of Toronto)"
     }
   ]
 }
